@@ -301,6 +301,20 @@ body::before{
     border-radius: 30px;
 }
 
+.mainContent-topPage>section{
+    padding: 20px;
+}
+.mainContent-topPage>section>h1{
+    margin: 0;
+    padding: 0;
+    padding-left: 10px;
+    border-left: 10px solid #c0392b;
+}
+
+.altSite{
+    font-size: 150%;
+}
+
 
 footer{
     margin-top: 100px;
