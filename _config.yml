@@ -8,12 +8,9 @@
 # Site settings
 title: アニメ「こうしす！」公式サイト
 email: info-opap at opap.jp
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+description: > # 長く使われた物には魂が宿ると言いますが、このシステムに宿っていたのはゴミでした。情報セキュリティ普及啓発アニメ「こうしす！」公式サイト。
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://kosys.opap.jp/" # the base hostname & protocol for your site
+url: "http://kosys.opap.jp/" # the base hostname & protocol for your site
 twitter_username: opap_jp
 github_username:  opap-jp
 
