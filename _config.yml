@@ -8,9 +8,9 @@
 # Site settings
 title: アニメ「こうしす！」公式サイト
 email: info-opap at opap.jp
-description: > # 長く使われた物には魂が宿ると言いますが、このシステムに宿っていたのはゴミでした。情報セキュリティ普及啓発アニメ「こうしす！」公式サイト。
+description: 長く使われた物には魂が宿ると言いますが、このシステムに宿っていたのはゴミでした。情報セキュリティ普及啓発アニメ「こうしす！」公式サイト。
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://kosys.opap.jp/" # the base hostname & protocol for your site
+url: "http://kosys.opap.jp" # the base hostname & protocol for your site
 twitter_username: opap_jp
 github_username:  opap-jp
 
