@@ -10,4 +10,23 @@
     <link rel="icon" type="image/png" href="{{ "/favicon.png" | prepend: site.baseurl }}" />
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
     <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
+
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@{{ site.twitter_username | escape }}">
+    <meta name="twitter:creator" content="@{{ site.twitter_username | escape }}">
+    {% if page.title %}
+    <meta name="twitter:title" content="{{ page.title }}">
+    {% else %}
+    <meta name="twitter:title" content="{{ site.title }}">
+    {% endif %}
+    {% if page.description %}
+    <meta name="twitter:description" content="{{ page.description }}">
+    {% else %}
+    <meta name="twitter:description" content="{{ site.description }}">
+    {% endif %}
+    {% if page.image %}
+    <meta name="twitter:image:src" content="{{ site.url }}/img/{{ page.image }}">
+    {% else %}
+    <meta name="twitter:image:src" content="{{ site.url }}/img/main.png">
+    {% endif %}
 </head>
