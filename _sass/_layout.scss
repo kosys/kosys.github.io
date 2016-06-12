@@ -368,9 +368,19 @@ footer{
     clear:both;
 }
 
-.col-1 { float: left; width: calc(1 * 100% / 12); }
-.col-2 { float: left; width: calc(2 * 100% / 12); }
-.col-3 { float: left; width: calc(3 * 100% / 12); }
-.col-4 { float: left; width: calc(4 * 100% / 12); }
-.col-5 { float: left; width: calc(5 * 100% / 12); }
-.col-6 { float: left; width: calc(6 * 100% / 12); }
+.col{
+    float: left;
+}
+.col-1  { @extend .col; width:  8.33333333%; }
+.col-2  { @extend .col; width: 16.66666667%; }
+.col-3  { @extend .col; width: 25.00000000%; }
+.col-4  { @extend .col; width: 33.33333333%; }
+.col-5  { @extend .col; width: 41.66666667%; }
+.col-6  { @extend .col; width: 50.00000000%; }
+.col-7  { @extend .col; width: 58.33333333%; }
+.col-8  { @extend .col; width: 66.66666667%; }
+.col-9  { @extend .col; width: 75.00000000%; }
+.col-10 { @extend .col; width: 83.33333333%; }
+.col-11 { @extend .col; width: 91.66666667%; }
+.col-12 { @extend .col; width: 100%; }
+
