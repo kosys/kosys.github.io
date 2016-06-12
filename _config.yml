@@ -1,14 +1,7 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
-
 # Site settings
 title: アニメ「こうしす！」公式サイト
 email: info-opap at opap.jp
-description: 長く使われた物には魂が宿ると言いますが、このシステムに宿っていたのはゴミでした。情報セキュリティ普及啓発アニメ「こうしす！」公式サイト。
+description: 穴だらけ！？ 弊社自慢のセキュリティ――鉄道会社のIT部門を舞台にコメディで描く情報セキュリティ普及啓発アニメ「こうしす！」公式サイト。
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://kosys.opap.jp" # the base hostname & protocol for your site
 twitter_username: opap_jp
@@ -16,3 +9,18 @@ github_username:  opap-jp
 
 # Build settings
 markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+feed:
+  path: atom.xml
+gems:
+  - jekyll-redirect-from
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-seo-tag
+exclude:
+  - CNAME
+  - README.md
+  - Gemfile*
