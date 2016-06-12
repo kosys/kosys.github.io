@@ -128,16 +128,20 @@ body::before{
     right: 70px;
     top: 0;
     
-    -ms-writing-mode: tb-rl; /* for MS IE8+ */
-    writing-mode: vertical-rl;
-
-    font-size: 45px;
-    text-align: left;
-    font-weight: 600;
-    transform: rotate(5deg);
+    width: 140px;
+    height: 500px;
+    
+    transform: scale(1.2) rotate(5deg);
     color: #65ace4;
     
 }
+
+.jumbotronSlogan>img{
+    width: 140px;
+    height: 500px;
+}
+
+
 .mainNav{
     position: absolute;
     left: 0;
