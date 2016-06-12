@@ -166,7 +166,7 @@ body::before{
     margin: 20px 0;
 
     color: white;
-    font-weight: 400;
+    font-weight: 500;
 
     line-height: 1.0;
     box-shadow: 1px 1px 2px rgba(0,0,0,0.3)  ;
@@ -259,7 +259,7 @@ body::before{
     height: 40px;
     width: 40px;
     border-radius: 20px;
-    font-weight: bold;
+    font-weight: 500;
     box-sizing: border-box;
     background-color: white;
 
@@ -280,7 +280,7 @@ body::before{
     right: 10px;
     bottom: 10px;
     color: white;
-    font-weight: bold;
+    font-weight: 500;
     box-shadow: 5px 5px 5px rgba(0,0,0,0.6)  ;
     border-radius: 5px;
     padding: 0 10px;
@@ -292,7 +292,10 @@ body::before{
     border-spacing: 3px;
 }
 
-.infoDisplay td{
+.infoDisplay table th{
+    font-weight: 500;
+}
+.infoDisplay table td{
     background-color: black;
     font-weight: normal;
     text-align: left;
