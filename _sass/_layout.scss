@@ -14,7 +14,6 @@ html{
 }
 
 body{
-    position: relative;
     margin: 0;
     padding-top: 20px;
     background-color: #ffffff;
@@ -41,8 +40,8 @@ body::before{
     background-repeat: repeat;
 
     opacity: 0.7;
+    z-index: -10;
 
-    z-index: -1;
 }
 
 .header-topPage{
@@ -161,6 +160,7 @@ body::before{
     position: absolute;
     left: 0;
     top:0;
+    z-index: 10;
 }
 
 .navItem{
@@ -479,7 +479,10 @@ footer{
 
     }
     .special{
-        position: static;
+        position: relative;
+        left: 0;
+        top: 0;
+        bottom: 0;
         transform: none;
         margin: 10px auto;
     }
@@ -489,7 +492,7 @@ footer{
     }
     
     .mainNav{
-        position: static;
+        position: relative;
         width: 100%;
     }
 
