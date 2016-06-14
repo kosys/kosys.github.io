@@ -98,38 +98,49 @@ body::before{
     overflow: hidden;
 }
 
-.jumbotron::before {
-    display: block;
-    content: "";
-
+.jumbotron>h1{
     position: absolute;
-    top:0;
-    left:0;
+    left: 0;
+    top: 0;
 
-    width: 800px;
-    height: 800px;
-
-    background-image: url(../img/bg_line.svg);
-    background-repeat: no-repeat;
-
-    transform: scale(0.9) translate3d(220px,10px,0) rotateX(45deg);
-
-    z-index: -1;
 }
 
-
 .jumbotronImage{
-    position: absolute;
-    top: 0;
-    left: 240px;
+    position: relative;
+    margin: 0 auto;
     width: 720px;
     height: 720px;
 }
 
+.jumbotronImage::before {
+    display: block;
+    content: "";
+
+    position: absolute;
+    top:7%;
+    left:0;
+
+    width: 100%;
+    height: 100%;
+
+    background-image: url(../img/bg_line.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    transform-origin:center;
+    transform: rotateX(45deg);
+
+    z-index: -1;
+}
+
+.jumbotronMainImage{
+    width: 720px;
+    height: 720px;
+}
 
 .jumbotronSlogan{
     position: absolute;
-    right: 70px;
+    right: -140px;
     top: 0;
     
     width: 140px;
@@ -339,12 +350,17 @@ footer{
     margin: 0 auto;
 }
 
-.footerWrapper>.logo-opap{
+.footerWrapper>.footerLogoLink{
     display: block;
     position: absolute;
     top: -93.75px;
     right: 10px;
     
+    width: 300px;
+    height: 150px;
+
+}
+.footerWrapper>.logo-opap{
     width: 300px;
     height: 150px;
 }
@@ -360,7 +376,7 @@ footer{
 
 /* 汎用スタイル */
 .hideText{
-    text-indent: 100%;
+    text-indent: -300%;
     white-space: nowrap;
     overflow: hidden;
 }
@@ -387,3 +403,133 @@ footer{
 .col-11 { @extend .col; width: 91.66666667%; }
 .col-12 { @extend .col; width: 100%; }
 
+
+/*　モバイル用差分スタイル */
+
+ 
+@media screen and (max-width: 640px) and (orientation: portrait) {
+
+    body{
+        font-family: sans-serif;
+        min-width: unset;
+        padding-top: 10px;
+    }
+    
+    .header-topPage{
+        padding-top: 5px;
+        margin-top: -20px;
+    }
+
+    .header-topPage>.logo-kosys{
+    
+        position: relative;
+    
+        margin-bottom: 65px;
+        padding: 0;
+    
+        height: 42.5px;
+        width: 100%;
+
+
+    }
+    
+    .header-topPage>.logo-kosys::before{
+        position: relative;
+        top: -25px;
+        height: 142.5px;
+        width: 250px;
+        
+    }
+    .jumbotron>h1{
+        
+    }
+    .jumbotron {
+        position: relative;
+        width: 80%;
+        height: auto;
+        margin: 0 auto;
+        overflow: visible;
+    }
+
+    .jumbotronImage{
+        margin: 0;
+        width: 100%;
+        height: auto;
+        overflow: visible;
+    }
+    
+    .jumbotronMainImage{
+        margin: 0;
+        height: auto;
+        width: 100%;
+    }
+
+    .jumbotronSlogan{
+        right: -5vw;
+        top: 15vw;
+        width: 20vw;
+        height: 70vw;
+        transform: rotate(5deg);
+    }
+    .jumbotronSlogan>img{
+        width: 100%;
+        height: auto;
+
+    }
+    .special{
+        position: static;
+        transform: unset;
+        margin: 10px auto;
+    }
+    .infoDisplay{
+        position: static;
+        width: 100%;
+    }
+    
+    .mainNav{
+        position: static;
+        width: 100%;
+    }
+
+    .navItem{
+        width: 100%;
+        font-weight: bold;
+    }
+    .navItemNumber{
+        font-weight: bold;
+    }
+
+    .mainContent-topPage{
+        width: 100%;
+        height: auto;
+    }
+    
+    footer{
+        margin-top: 10px;
+
+    }
+    .footerWrapper{
+        width: 100%;
+    }
+    .footerWrapper>.footerLogoLink{
+        position: static;
+        width: 100%;
+    }
+    .footerWrapper>.logo-opap{
+        width: 100%;
+        height: auto;
+    }
+    .footerWrapper>.copyright{
+        color: white;
+        font-style: normal;
+    }
+
+    .footerWrapper a{
+        color: white;
+    }
+
+    .col{
+        width: 100%;
+        float: none;
+    }
+}
