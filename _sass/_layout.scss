@@ -109,6 +109,7 @@ body::before{
     margin: 0 auto;
     width: 720px;
     height: 720px;
+    z-index: 0;
 }
 
 .jumbotronImage::before {
