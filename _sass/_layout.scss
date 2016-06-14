@@ -14,6 +14,7 @@ html{
 }
 
 body{
+    position: relative; /* z-indexを効かせるため */
     margin: 0;
     padding-top: 20px;
     background-color: #ffffff;
