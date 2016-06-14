@@ -23,6 +23,7 @@ body{
     font-family: 'Noto Sans Japanese', sans-serif;
     min-width: 1200px;
     transform: rotate(360deg);
+    z-index: 0;
 }
 
 body::before{
@@ -40,8 +41,7 @@ body::before{
     background-repeat: repeat;
 
     opacity: 0.7;
-    z-index: -10;
-
+    z-index: 0;
 }
 
 .header-topPage{
