@@ -102,7 +102,6 @@ body::before{
     position: absolute;
     left: 0;
     top: 0;
-
 }
 
 .jumbotronImage{
@@ -137,6 +136,7 @@ body::before{
 .jumbotronMainImage{
     width: 720px;
     height: 720px;
+    transform: translateZ(400px);
 }
 
 .jumbotronSlogan{
