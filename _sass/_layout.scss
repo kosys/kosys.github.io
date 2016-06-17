@@ -1,7 +1,4 @@
 ﻿
-@import url(//fonts.googleapis.com/earlyaccess/notosansjapanese.css);
-
-
 *,
 *::before,
 *::after{
@@ -21,7 +18,7 @@ body{
     background-image: url(../img/bg_ticket.svg);
     background-repeat: repeat;
     background-size: 90px 70px;
-    font-family: 'Noto Sans Japanese', sans-serif;
+    font-family:'Noto Sans Japanese', 'Noto Sans JP', 'Source Sans Pro', 'ヒラギノ角ゴ Pro', 'Hiragino Kaku Gothic Pro', 'Noto Sans Japanese Custom', 'メイリオ', Meiryo, sans-serif;
     min-width: 1200px;
     transform: rotate(360deg);
     z-index: 0;
@@ -147,7 +144,7 @@ body::before{
     width: 140px;
     height: 500px;
     
-    transform: scale(1.2) rotate(5deg);
+    transform: scale(1.2) rotate(5deg) translateZ(450px);
     color: #65ace4;
     
 }
@@ -473,7 +470,7 @@ footer{
         top: 15vw;
         width: 20vw;
         height: 70vw;
-        transform: rotate(5deg);
+        transform: rotate(5deg) translateZ(450px);
     }
     .jumbotronSlogan>img{
         width: 100%;
