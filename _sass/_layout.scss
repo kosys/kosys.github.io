@@ -293,9 +293,6 @@ body::before{
     font-size: 20px;
 }
 
-.navItem::first-letter::after{
-    content: "aaa";
-}
 .infoDisplay{
     position: absolute;
     background-color: #888;
@@ -351,11 +348,12 @@ body::before{
 }
 
 
-footer{
+.siteFooter{
     margin-top: 100px;
     width: 100%;
     background-color: #d4934d;
-    height: 100px;
+    min-height: 50px;
+    padding-bottom: 20px;
 }
 
 .footerWrapper{
@@ -516,28 +514,33 @@ footer{
     }
 
     .mainContent-topPage{
-        width: 100%;
+        width: 90%;
         height: auto;
+        margin: 0 auto;
     }
     
-    footer{
-        margin-top: 10px;
-
+    .siteFooter{
+        margin-top: 70px;
     }
+
     .footerWrapper{
         width: 100%;
+        padding-top: 50px;
     }
     .footerWrapper>.footerLogoLink{
-        position: static;
-        width: 100%;
+        top: -61px;
+        width: 200px;
+        height:100px;
     }
     .footerWrapper>.logo-opap{
-        width: 100%;
+        width: 200px;
         height: auto;
     }
     .footerWrapper>.copyright{
+        display: block;
         color: white;
         font-style: normal;
+        text-align: center;
     }
 
     .footerWrapper a{
