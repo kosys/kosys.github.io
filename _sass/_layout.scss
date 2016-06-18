@@ -1,4 +1,5 @@
-﻿
+@charset "utf-8";
+
 *,
 *::before,
 *::after{
@@ -7,18 +8,17 @@
 }
 
 html{
-    background-color: #d4934d;
+    background-color: #ffffff;
 }
 
 body{
     position: relative; /* z-indexを効かせるため */
     margin: 0;
     padding-top: 20px;
-    background-color: #ffffff;
     background-image: url(../img/bg_ticket.svg);
     background-repeat: repeat;
     background-size: 90px 70px;
-    font-family:'Noto Sans Japanese', 'Noto Sans JP', 'Source Sans Pro', 'ヒラギノ角ゴ Pro', 'Hiragino Kaku Gothic Pro', 'Noto Sans Japanese Custom', 'メイリオ', Meiryo, sans-serif;
+    font-family: 'Noto Sans Japanese', 'Noto Sans JP', 'Source Sans Pro', 'ヒラギノ角ゴ Pro', 'Hiragino Kaku Gothic Pro', 'Noto Sans Japanese Custom', 'メイリオ', Meiryo, sans-serif;
     min-width: 1200px;
     transform: rotate(360deg);
     z-index: 0;
@@ -139,19 +139,19 @@ body::before{
 .jumbotronSlogan{
     position: absolute;
     right: -140px;
-    top: 0;
+    top: 30px;
     
     width: 140px;
-    height: 500px;
+    height: auto;
     
-    transform: scale(1.2) rotate(5deg) translateZ(450px);
+    transform: rotate(5deg) translateZ(450px);
     color: #65ace4;
     
 }
 
 .jumbotronSlogan>img{
     width: 140px;
-    height: 500px;
+    height: auto;
 }
 
 
@@ -176,7 +176,7 @@ body::before{
     margin: 20px 0;
 
     color: white;
-    font-weight: 500;
+    font-weight: 600;
 
     line-height: 1.0;
     box-shadow: 1px 1px 2px rgba(0,0,0,0.3)  ;
@@ -305,7 +305,7 @@ body::before{
     right: 10px;
     bottom: 10px;
     color: white;
-    font-weight: 500;
+    font-weight: 600;
     box-shadow: 5px 5px 5px rgba(0,0,0,0.6)  ;
     border-radius: 5px;
     padding: 0 10px;
@@ -318,7 +318,7 @@ body::before{
 }
 
 .infoDisplay table th{
-    font-weight: 500;
+    font-weight: 600;
 }
 .infoDisplay table td{
     background-color: black;
@@ -511,10 +511,8 @@ footer{
 
     .navItem{
         width: 100%;
-        font-weight: bold;
     }
     .navItemNumber{
-        font-weight: bold;
     }
 
     .mainContent-topPage{
