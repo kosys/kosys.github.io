@@ -1,0 +1,23 @@
+---
+layout: page
+title: 新着情報
+title_tagline: しんちゃくじょうほう　News
+line_number: A
+station_number: '01'
+categories:
+  - news
+---
+
+<h2>記事一覧</h2>
+
+<ul class="post-list">
+  {% for post in site.posts %}
+    <li>
+      <span class="post-meta">{{ post.date | date: "%Y/%m/%d" }}</span>
+
+      <h2>
+        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+      </h2>
+    </li>
+  {% endfor %}
+</ul>

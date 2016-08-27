@@ -1,0 +1,370 @@
+@charset "utf-8";
+
+////////////////////////////////////////////
+// 見出し
+////////////////////////////////////////////
+
+.l-content { 
+    
+}
+
+////////////////////////////////////////////
+// TOPのメイン絵
+////////////////////////////////////////////
+
+.jumbotron {
+    position: relative;
+    text-align: center; 
+    width: 1200px; margin: 0 auto;
+    height: 720px;
+    overflow: hidden;
+
+    @include mobile-media-query {
+        width: 80%;
+        height: auto;
+        margin: 0 auto;
+        overflow: visible;
+    }
+}
+
+.jumbotron>h1{
+    position: absolute;
+    left: 0;
+    top: 0;
+    border: initial;
+    background: initial;
+}
+
+.jumbotronImage{
+    position: relative;
+    margin: 0 auto;
+    width: 720px;
+    height: 720px;
+    z-index: 0;
+
+    @include mobile-media-query {
+        margin: 0;
+        width: 100%;
+        height: auto;
+        overflow: visible;
+    }
+}
+
+.jumbotronImage::before {
+    display: block;
+    content: "";
+
+    position: absolute;
+    top:7%;
+    left:0;
+
+    width: 100%;
+    height: 100%;
+
+    background-image: url(../img/bg_line.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    transform-origin:center;
+    transform: rotateX(45deg);
+
+    z-index: -1;
+}
+
+.jumbotronMainImage{
+    width: 720px;
+    height: 720px;
+    transform: translateZ(400px);
+
+    @include mobile-media-query {
+        margin: 0;
+        height: auto;
+        width: 100%;
+    }
+}
+
+.jumbotronSlogan{
+    position: absolute;
+    right: -140px;
+    top: 30px;
+    width: 140px;
+    height: 500px;
+
+    transform:translateZ(410px) rotate(5deg)  ;
+
+    color: #65ace4;
+
+    @include mobile-media-query {
+        right: -5vw;
+        top: 15vw;
+        width: 20vw;
+        height: 70vw;
+        transform: rotate(5deg) translateZ(450px);
+    }
+   
+}
+
+.jumbotronSlogan>img{
+    width: 140px;
+    height: 500px;
+
+    @include mobile-media-query {
+        width: 100%;
+        height: auto;
+    }
+}
+
+
+.special{
+    position: absolute;
+    left: 10px;
+    bottom: 50px;
+
+    height: 100px;
+    width: 250px;
+    padding: 5px 10px;
+
+    transform: rotate(-15deg);
+
+    background-color: white;
+    background-image: url(../img/bg_ticket_blue.svg);
+    background-repeat: repeat;
+    background-size: 36px 28px;
+    
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.6)  ;
+
+    @include mobile-media-query {
+        position: relative;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        transform: none;
+        margin: 10px auto;
+    }
+}
+
+.infoDisplay{
+    position: absolute;
+    background-color: #888;
+    border-top: 5px solid #44aacc;
+    height: 150px;
+    width: 420px;
+    right: 10px;
+    bottom: 10px;
+    color: white;
+    font-weight: 600;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.6)  ;
+    border-radius: 5px;
+    padding: 0 10px;
+
+    @include mobile-media-query {
+        position: static;
+        width: 100%;
+    }
+}
+
+.infoDisplay table{
+    table-layout: fixed;
+    width: 100%;
+    border-spacing: 3px;
+}
+
+.infoDisplay table th{
+    font-weight: 600;
+}
+.infoDisplay table td{
+    background-color: black;
+    height: 1.8rem;
+    font-weight: normal;
+    font-size: 1.6rem;
+    text-align: left;
+    color: #de9610;
+}
+
+
+
+////////////////////////////////////////////
+// 路線図風ナビゲーション
+////////////////////////////////////////////
+
+.navMap {
+    position: absolute;
+    left: 0;
+    top:0;
+    z-index: 10;
+
+    @include mobile-media-query {
+        position: relative;
+        width: 100%;
+    }
+}
+
+.navMap-item{
+    display: block;
+    text-decoration: none;
+
+    position: relative;
+    border-radius: 27px;
+    height: 54px;
+    width: 200px;
+
+    background-color: #56a764;
+    border: 2px solid white;
+    margin: 20px 0;
+
+    color: white;
+    font-weight: 600;
+
+    line-height: 1.0;
+    box-shadow: 1px 1px 2px rgba(0,0,0,0.3)  ;
+
+    @include mobile-media-query {
+        width: 100%;
+    }
+}
+
+
+.navMap-item::after{
+    display: block;
+    content: "";
+
+    position: absolute;
+    width: 15px;
+    height: 45px;
+
+    top: 50px;
+    left: 17px;
+    
+    background-color: #44aacc;
+    z-index: -1;
+}
+
+.navMap-item:last-of-type::after{
+    display: none;
+}
+
+.navMap-item:hover::before{
+    display: block;
+    content: "";
+
+    position: absolute;
+    width: 100%;
+    height:100%;
+    border-radius: 27px;
+
+    background-color: white;
+    opacity: 0.2;
+}
+
+.navMap-item:nth-of-type(2n){
+    background-color: rgb(124, 198, 74);
+}
+.navMap-item:nth-of-type(2n+1){
+    background-color: #f29f05;
+}
+
+.navMap-item.navMap-item-important{
+    background-color: #c0392b;
+}
+
+.navMap-itemTitle{
+    margin-left: 55px;
+    margin-right: 27px;
+    font-size: 20px;
+    text-align: left;
+    padding-top: 7px;
+    padding-bottom: 5px;
+}
+.navMap-itemTagline{
+    text-align: left;
+    margin-left: 55px;
+    font-size: 10px;
+
+}
+
+.navMap-itemNumber{
+    box-sizing: border-box;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    box-sizing: border-box;
+    background-color: white;
+
+    color: black;
+    text-align:center;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    line-height: 1.0;
+
+    overflow: hidden;
+}
+.navMap-itemLineNumber{
+    display: block;
+    width: 100%;
+    font-size: 16px;
+    line-height: 14px;
+    padding-top: 2px;
+}
+.navMap-itemStationNumber{
+    display: block;
+    width: 100%;
+    font-size: 20px;
+}
+
+////////////////////////////////////////////
+// 駅番号表示（ページタイトル用）
+////////////////////////////////////////////
+
+.pageNumber {
+    box-sizing: border-box;
+    position: absolute;
+    top: 15px;
+    left: 50px;
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    box-sizing: border-box;
+    background-color: #c0392b;
+
+    color: white;
+    text-align:center;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    line-height: 1.0;
+
+    overflow: hidden;
+
+    @include mobile-media-query {
+        top: 5px;
+        left: 5px;
+        transform: scale(0.5);
+    }
+}
+.pageNumber-line {
+    display: block;
+    width: 100%;
+    font-size: 16px;
+    line-height: 14px;
+    padding-top: 2px;
+}
+
+.pageNumber-station {
+    display: block;
+    width: 100%;
+    font-size: 20px;
+}
+
+////////////////////////////////////////////
+// 汎用スタイル
+////////////////////////////////////////////
+
+
+/* 汎用スタイル */
+.hideText{
+    text-indent: -300%;
+    white-space: nowrap;
+    overflow: hidden;
+}
