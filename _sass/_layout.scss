@@ -350,7 +350,7 @@ body::before{
     .l-content {
         width: 1200px; 
         margin: 0 auto;
-        height:500px;
+        min-height:500px;
         background-color: white;
         border: 5px solid #c0392b;
         border-radius: 30px;
@@ -385,7 +385,6 @@ body::before{
 
     .l-content {
         margin-top: 10px;
-        padding-bottom: 100px;
     }
 
     .l-content-header{
@@ -395,6 +394,7 @@ body::before{
     .l-content-body {
         min-height: 400px;
         margin-top: 20px;
+        padding-bottom: 100px;
     }
 
     .l-content-nav{
