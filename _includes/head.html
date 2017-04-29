@@ -13,7 +13,7 @@
     <title>{{ outputTitle | escape }}</title>
     <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
     
-    <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}?ver={{site.github.build_revision}}">
+    <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}?ver={{ site.time | date_to_xmlschema | url_encode}}">
     <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:400,700">
     <link rel="shortcut icon" href="{{ "/favicon.ico" | prepend: site.baseurl }}" type="image/vnd.microsoft.icon">
     <link rel="icon" type="image/png" href="{{ "/favicon.png" | prepend: site.baseurl }}" />
