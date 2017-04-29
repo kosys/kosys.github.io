@@ -1,0 +1,44 @@
+
+news:
+    lineNumber: A
+    stationNumber: '01'
+    displayName: '新着情報'
+    displayNameKana: 'しんちゃくじょうほう'
+    displayNameEnglish: 'News'
+onair:
+    lineNumber: A
+    stationNumber: '02'
+    displayName: '放送情報' 
+    displayNameKana: 'ほうそうじょうほう'
+    displayNameEnglish: 'On Air'
+introduction:
+    lineNumber: A
+    stationNumber: '03'  
+    displayName: '作品概要' 
+    displayNameKana: 'さくひんがいよう'
+    displayNameEnglish: 'Introduction'
+characters:
+    lineNumber: A
+    stationNumber: '04'  
+    displayName: '登場人物' 
+    displayNameKana: 'とうじょうじんぶつ'
+    displayNameEnglish: 'Characters'
+story:
+    lineNumber: A
+    stationNumber: '05'  
+    displayName: '各話概要' 
+    displayNameKana: 'かくわがいよう'
+    displayNameEnglish: 'Story'
+staff:
+    lineNumber: A
+    stationNumber: '06'  
+    displayName: 'スタッフ' 
+    displayNameKana: 'すたっふ'
+    displayNameEnglish: 'Staff'
+joinus:
+    lineNumber: A
+    stationNumber: '07'  
+    displayName: '参加者募集' 
+    displayNameKana: 'さんかしゃぼしゅう'
+    displayNameEnglish: 'Join Us'
+    navMapClass: 'navMap-item-important'

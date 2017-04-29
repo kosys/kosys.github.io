@@ -1,11 +1,6 @@
 ---
 layout: page
-title: 参加者募集
-title_tagline: さんかしゃぼしゅう　Join Us
-line_number: A
-station_number: '07'
-categories:
-  - joinus
+category: joinus
 ---
 
 あなたも「こうしす！」の制作に参加してみませんか？

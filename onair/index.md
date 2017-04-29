@@ -1,11 +1,7 @@
 ---
 layout: page
 title: 放送情報
-title_tagline: ほうそうじょうほう　On Air
-line_number: A
-station_number: '02'
-categories:
-  - onair
+category: onair
 ---
 
 

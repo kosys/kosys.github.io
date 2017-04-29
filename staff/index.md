@@ -1,11 +1,6 @@
 ---
 layout: page
-title: スタッフ
-title_tagline: すたっふ　Staff
-line_number: A
-station_number: '06'
-categories:
-  - staff
+category: staff
 ---
 
 制作スタッフ、利用素材の提供元は以下の通りです。

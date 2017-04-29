@@ -1,11 +1,6 @@
 ---
 layout: page
-title: 作品概要
-title_tagline: さくひんがいよう　Introduction
-line_number: A
-station_number: '03'
-categories:
-  - introduction
+category: introduction
 ---
 
 ――長く使われた物には魂が宿ると言いますが、このシステムに宿っていたのはゴミでした。

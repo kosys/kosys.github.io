@@ -12,78 +12,29 @@ layout: default
 
     <nav class="l-nav">
         <ul class="nav-list">
-            <li class="nav-item nav-item-news {% if page.categories contains 'news' %}nav-item-active{% endif %}">
-                <a href='{{ "/news/" | prepend: site.baseurl }}' class="nav-link">
+        {% for c in site.data.categoryInfo %}
+            {% assign category = c[0] %}
+            {% assign categoryInfo = c[1] %}
+            <li class="nav-item nav-item-news {% if page.category == category %}nav-item-active{% endif %}">
+                <a href='{{ "/" | append: category | append: "/" | relative_url }}' class="nav-link">
                     <span class="nav-item-number">
-                        <span class="nav-item-lineNumber">A</span><span class="nav-item-stationNumber">01</span>
+                        <span class="nav-item-lineNumber">{{ categoryInfo.lineNumber }}</span><span class="nav-item-stationNumber">{{ categoryInfo.stationNumber }}</span>
                     </span>
-                    <span class="nav-item-title">新着情報</span>
-                    <span class="nav-item-tagline">NEWS</span>
+                    <span class="nav-item-title">{{ categoryInfo.displayName }}</span>
+                    <span class="nav-item-tagline">{{ categoryInfo.displayNameEnglish | upcase  }}</span>
                 </a>
             </li>
-            <li class="nav-item nav-item-onair {% if page.categories contains 'onair' %}nav-item-active{% endif %}">
-                <a href='{{ "/onair/" | prepend: site.baseurl }}' class="nav-link">
-                    <span class="nav-item-number">
-                        <span class="nav-item-lineNumber">A</span><span class="nav-item-stationNumber">02</span>
-                    </span>
-                    <span class="nav-item-title">放送情報</span>
-                    <span class="nav-item-tagline">ON AIR</span>
-                </a>
-            </li>
-            <li class="nav-item nav-item-introduction {% if page.categories contains 'introduction' %}nav-item-active{% endif %}">
-                <a href='{{ "/introduction/" | prepend: site.baseurl }}' class="nav-link">
-                    <span class="nav-item-number">
-                        <span class="nav-item-lineNumber">A</span><span class="nav-item-stationNumber">03</span>
-                    </span>
-                    <span class="nav-item-title">作品概要</span>
-                    <span class="nav-item-tagline">INTRODUCTION</span>
-                </a>
-            </li>
-            <li class="nav-item nav-item-characters {% if page.categories contains 'characters' %}nav-item-active{% endif %}">
-                <a href='{{ "/characters/" | prepend: site.baseurl }}' class="nav-link">
-                    <span class="nav-item-number">
-                        <span class="nav-item-lineNumber">A</span><span class="nav-item-stationNumber">04</span>
-                    </span>
-                    <span class="nav-item-title">登場人物</span>
-                    <span class="nav-item-tagline">CHARACTERS</span>
-                </a>
-            </li>
-            <li class="nav-item nav-item-story {% if page.categories contains 'story' %}nav-item-active{% endif %}">
-                <a href='{{ "/story/" | prepend: site.baseurl }}' class="nav-link">
-                    <span class="nav-item-number">
-                        <span class="nav-item-lineNumber">A</span><span class="nav-item-stationNumber">05</span>
-                    </span>
-                    <span class="nav-item-title">各話概要</span>
-                    <span class="nav-item-tagline">STORY</span>
-                </a>
-            </li>
-            <li class="nav-item nav-item-staff {% if page.categories contains 'staff' %}nav-item-active{% endif %}">
-                <a href='{{ "/staff/" | prepend: site.baseurl }}' class="nav-link">
-                    <span class="nav-item-number">
-                        <span class="nav-item-lineNumber">A</span><span class="nav-item-stationNumber">06</span>
-                    </span>
-                    <span class="nav-item-title">スタッフ</span>
-                    <span class="nav-item-tagline">STAFF</span>
-                </a>
-            </li>
-            <li class="nav-item nav-item-joinus {% if page.categories contains 'joinus' %}nav-item-active{% endif %}">
-                <a href='{{ "/joinus/" | prepend: site.baseurl }}' class="nav-link">
-                    <span class="nav-item-number">
-                        <span class="nav-item-lineNumber">A</span><span class="nav-item-stationNumber">07</span>
-                    </span>
-                    <span class="nav-item-title">参加者募集</span>
-                    <span class="nav-item-tagline">JOIN US</span>
-                </a>
-            </li>
+        {% endfor %}
         </ul>
     </nav>
 
     <article class="l-content">
 
         <div class="l-content-header">
-            <h1 class="l-content-title">{{ page.title }}</h1>
+            {% assign categoryInfo = site.data.categoryInfo[page.category] %}
+            <h1 class="l-content-title">{{ categoryInfo.displayName }}</h1>
             <div class="l-content-title-tagline">
-                {{ page.title_tagline }}
+                {{ categoryInfo.displayNameKana }}　{{ categoryInfo.displayNameEnglish }}
             </div>
             <nav class="l-content-nav">
                 {% if page.previous_url %}
@@ -93,10 +44,10 @@ layout: default
                     <a class="next" href="{{page.next_url}}">{{page.next_title}}</a>
                 {% endif %}
             </nav>
-            {% if page.line_number %}
+            {% if categoryInfo.lineNumber %}
             <div class="pageNumber">
-                <span class="pageNumber-line">{{page.line_number}}</span>
-                <span class="pageNumber-station">{{page.station_number}}</span>
+                <span class="pageNumber-line">{{categoryInfo.lineNumber}}</span>
+                <span class="pageNumber-station">{{categoryInfo.stationNumber}}</span>
             </div>
             {% endif %}
         </div>
