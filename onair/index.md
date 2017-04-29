@@ -1,6 +1,5 @@
 ---
 layout: page
-title: 放送情報
 category: onair
 ---
 
