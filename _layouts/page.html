@@ -4,7 +4,7 @@ layout: default
 <div class="layout-page {% for category in page.categories %} category-{{ category }}{% endfor %}">
     <header class="l-header hideText">
         <h1 class="logo-kosys">
-            <a class="logoImage" href='{{ "/" | prepend: site.baseurl }}'>
+            <a class="logoImage" href='{{ "/" | relative_url }}'>
                 こうしす！ -こちら京姫鉄道広報部システム課-
             </a>
         </h1>
@@ -32,9 +32,10 @@ layout: default
 
         <div class="l-content-header">
             {% assign categoryInfo = site.data.categoryInfo[page.category] %}
-            <h1 class="l-content-title">{{ categoryInfo.displayName }}</h1>
+            {% assign categoryIndexUrl = "/" | append: page.category | append: "/" | relative_url %}
+            <h1 class="l-content-title"><a href="{{ categoryIndexUrl }}" class="headingCategoryLink">{{ categoryInfo.displayName }}</a></h1>
             <div class="l-content-title-tagline">
-                {{ categoryInfo.displayNameKana }}　{{ categoryInfo.displayNameEnglish }}
+                <a href="{{ categoryIndexUrl }}" class="headingCategoryLink">{{ categoryInfo.displayNameKana }}</a>　<a href="{{ categoryIndexUrl }}" class="headingCategoryLink">{{ categoryInfo.displayNameEnglish }}</a>
             </div>
             <nav class="l-content-nav">
                 {% if page.previous_url %}
@@ -45,10 +46,10 @@ layout: default
                 {% endif %}
             </nav>
             {% if categoryInfo.lineNumber %}
-            <div class="pageNumber">
+            <a href="{{ categoryIndexUrl }}" class="pageNumber">
                 <span class="pageNumber-line">{{categoryInfo.lineNumber}}</span>
                 <span class="pageNumber-station">{{categoryInfo.stationNumber}}</span>
-            </div>
+            </a>
             {% endif %}
         </div>
 

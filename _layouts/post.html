@@ -1,0 +1,27 @@
+---
+layout: page
+---
+
+<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+
+    <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">{{ page.title }}</h2>
+        <p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%Y/%m/%d %H:%M:%S" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</p>
+    </header>
+
+    <div class="post-content" itemprop="articleBody">
+        {{ content }}
+    </div>
+    <nav class="post-nav">
+    {% if page.previous.url %} 
+        <a href="{{page.previous.url}}" class="post-prev">&laquo; {{page.previous.title}}</a>
+    {% else %}
+        <span class="post-prev post-next-empty">これより過去の記事はありません</span>
+    {% endif %} 
+    {% if page.next.url %} 
+        <a href="{{page.next.url}}" class="post-next">{{page.next.title}} &raquo;</a> 
+    {% else %}
+        <span class="post-next post-next-empty">これより先の記事はありません</span>
+    {% endif %} 
+    </nav>
+</article>
