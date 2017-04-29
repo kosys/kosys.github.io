@@ -366,6 +366,7 @@
 
 .sponsorGroup {
     text-align: center;   
+    margin-bottom: 30px;
 }
 
 .sponsorGroup h3 {
@@ -375,6 +376,41 @@
 .sponsorLogo {
     width: 300px;
 }
+
+.sponsorNameList {
+    ul {
+        display: block;
+    }
+    li {
+        display: inline-block;
+        margin: 0 10px;
+        padding: 3px 5px;
+        background-color: #FFDDDD;
+        border-right: solid 1px #EEAAAA;
+        border-bottom: solid 1px #EEAAAA;
+    }
+}
+
+.sponsorNameList-large {
+    @extend .sponsorNameList;
+    font-size: 120%;
+}
+
+.sponsorNameList-middle {
+    @extend .sponsorNameList;
+    font-size: 100%;
+}
+
+.sponsorNameList-small {
+    @extend .sponsorNameList;
+    font-size: 80%;
+}
+
+.sponsorNameList-xsmall {
+    @extend .sponsorNameList;
+    font-size: 70%;
+}
+
 .sponsorNote {
     font-size: 70%;
     text-align: center;

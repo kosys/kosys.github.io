@@ -25,3 +25,4 @@ exclude:
   - CNAME
   - README.md
   - Gemfile*
+  - vendor
