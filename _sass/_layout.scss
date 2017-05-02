@@ -447,14 +447,14 @@ body::before{
 .footerWrapper>.footerLogoLink{
     display: block;
     position: absolute;
-    top: -93.75px;
+    top: -98px;
     right: 10px;
     
     width: 300px;
     height: 150px;
 
     @include mobile-media-query {
-        top: -61px;
+        top: -66px;
         width: 200px;
         height:100px;
     }
