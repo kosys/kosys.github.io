@@ -8,6 +8,7 @@ enforce_ssl: kosys.opap.jp
 twitter_username: opap_jp
 github_username:  opap-jp
 repository: kosys/kosys.github.io
+timezone: Asia/Tokyo
 
 # Build settings
 markdown: kramdown
