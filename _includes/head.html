@@ -27,11 +27,11 @@
     <meta name="twitter:title" content="{{ outputTitle | escape }}">
     <meta name="twitter:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
     {% if page.image %}
-    <meta name="twitter:image:src" content="{{ page.image | absolute_url }}">
+    <meta name="twitter:image" content="{{ page.image | absolute_url }}">
     {% elsif page.mainImage %}
-    <meta name="twitter:image:src" content="{{ page.mainImage | absolute_url }}">
+    <meta name="twitter:image" content="{{ page.mainImage | absolute_url }}">
     {% else %}
-    <meta name="twitter:image:src" content="{{ site.url }}/img/main.png">
+    <meta name="twitter:image" content="{{ site.url }}/img/main.png">
     {% endif %}
 
 </head>
