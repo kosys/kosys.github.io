@@ -14,7 +14,7 @@ education:
 favoriteFoods:
 favoriteMotto: 
 dreamForTheFuture: 
-voiceActor: 
+voiceActor: 矢塚翔
 mainImage: '/img/yasu_uyagawa.png'
 thunbmail: '/img/yasu_uyagawa_thumb.png'
 characterType: sub
