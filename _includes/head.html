@@ -24,18 +24,12 @@
     <meta name="twitter:card" content="summary">
     <meta name="twitter:site" content="@{{ site.twitter_username | escape }}">
     <meta name="twitter:creator" content="@{{ site.twitter_username | escape }}">
-    {% if page.title %}
-    <meta name="twitter:title" content="{{ page.title }}">
-    {% else %}
-    <meta name="twitter:title" content="{{ site.title }}">
-    {% endif %}
-    {% if page.description %}
-    <meta name="twitter:description" content="{{ page.description }}">
-    {% else %}
-    <meta name="twitter:description" content="{{ site.description }}">
-    {% endif %}
+    <meta name="twitter:title" content="{{ outputTitle | escape }}">
+    <meta name="twitter:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
     {% if page.image %}
-    <meta name="twitter:image:src" content="{{ site.url }}/img/{{ page.image }}">
+    <meta name="twitter:image:src" content="{{ page.image | absolute_url }}">
+    {% elsif page.mainImage %}
+    <meta name="twitter:image:src" content="{{ page.mainImage | absolute_url }}">
     {% else %}
     <meta name="twitter:image:src" content="{{ site.url }}/img/main.png">
     {% endif %}

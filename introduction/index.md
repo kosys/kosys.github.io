@@ -1,6 +1,7 @@
 ---
 layout: page
 category: introduction
+image: /img/introduction.jpg
 ---
 <div markdown="1" class="col-6 textblock">
 <img src="{{ site.baseurl }}/img/introduction.jpg" />
