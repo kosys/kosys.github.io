@@ -42,3 +42,9 @@ joinus:
     displayNameKana: 'さんかしゃぼしゅう'
     displayNameEnglish: 'Join Us'
     navMapClass: 'navMap-item-important'
+legal:
+    displayName: '利用規約'
+    displayNameKana: 'りようきやく'
+    displayNameEnglish: 'Legal Notices'
+    hide: 1
+

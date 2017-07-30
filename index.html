@@ -20,6 +20,7 @@ layout: default
         {% for c in site.data.categoryInfo %}
             {% assign category = c[0] %}
             {% assign categoryInfo = c[1] %}
+            {% if categoryInfo.hide != 1 %}
             <a class="navMap-item {{ categoryInfo.navMapClass }}" href='{{ "/" | append: category | append: "/" | relative_url }}'>
                 <div class="navMap-itemNumber">
                     <span class="navMap-itemLineNumber">{{ categoryInfo.lineNumber }}</span><span class="navMap-itemStationNumber">{{ categoryInfo.stationNumber }}</span>
@@ -27,6 +28,7 @@ layout: default
                 <div class="navMap-itemTitle">{{ categoryInfo.displayName }}</div>
                 <div class="navMap-itemTagline">{{ categoryInfo.displayNameEnglish | upcase  }}</div>
             </a>
+            {% endif %}
         {% endfor %}
         </nav>
         <div class="infoDisplay">
@@ -66,6 +68,17 @@ layout: default
                 制作元について<br />
                 <a class="altSite" href="https://opap.jp/">→OPAP-JP公式サイト</a>
             </p>
+            
+            <h2>新着情報</h2>
+                    
+            <ul class="post-list">
+            {% for post in site.posts limit:3 %}
+                <li>
+                <span class="post-meta">{{ post.date | date: "%Y/%m/%d" }}</span>
+                <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+                </li>
+            {% endfor %}
+            </ul>
 
         </section>
         <section class="col-6">

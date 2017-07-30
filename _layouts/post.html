@@ -25,3 +25,18 @@ layout: page
     {% endif %} 
     </nav>
 </article>
+
+<aside class="post-sidebar">
+
+    <h2><i class="fa fa-newspaper-o"></i> 記事一覧</h2>
+
+    <ul class="post-list">
+    {% for post in site.posts limit:10 %}
+        <li>
+        <span class="post-meta">{{ post.date | date: "%Y/%m/%d" }}</span>
+        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </li>
+    {% endfor %}
+    </ul>
+
+</aside>

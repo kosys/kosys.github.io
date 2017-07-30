@@ -3,21 +3,35 @@ layout: page
 category: characters
 ---
 
-<h2>メインキャラクター</h2>
+<section>
+  <h2>メインキャラクター</h2>
+  <ul class="character-list">
+    {% assign charpages = site.pages | where: 'layout', 'character' | where: 'characterType', 'main' | sort: 'sortOrder'  %}
+    {% for page in charpages %}
+        <li class="character-list-item">
+            <a href="{{ page.url | prepend: site.baseurl }}">
+                <img class="character-thumbnail" alt="{{ page.title }}" src="{{ page.thunbmail | relative_url }}" />
+                <p class="character-name">{{ page.title }}</p>
+                <p class="character-englishName">{{ page.englishName }}</p>
+            </a>
+        </li>
+    {% endfor %}
+  </ul>
+</section>
 
-<img src="main_characters.png" alt="全メインキャラクター画像" />
 
-<ul>
-  <li>祝園 アカネ</li>
-  <li>垂水 結菜</li>
-  <li>山家 宏佳</li>
-  <li>少佐</li>
-  <li>中舟生CIO</li>
-  <li>英賀保芽依</li>
-  <li>パキラ</li>
-</ul>
-キャラクター詳細は準備中
-
-<h2>サブキャラクター</h2>
-
-準備中
+<section>
+  <h2>サブキャラクター</h2>
+  <ul class="character-list">
+    {% assign charpages = site.pages | where: 'layout', 'character' | where: 'characterType', 'sub' | sort: 'sortOrder'  %}
+    {% for page in charpages %}
+        <li class="character-list-item">
+            <a href="{{ page.url | prepend: site.baseurl }}">
+                <img class="character-thumbnail" alt="{{ page.title }}" src="{{ page.thunbmail | relative_url }}" />
+                <p class="character-name">{{ page.title }}</p>
+                <p class="character-englishName">{{ page.englishName }}</p>
+            </a>
+        </li>
+    {% endfor %}
+  </ul>
+</section>

@@ -32,16 +32,17 @@ h1 {
 }
 
 h2,
-section h1 { 
-    background-color: #bd6d65;   
+section h1,
+.h2 { 
     border-left: 10px solid #c0392b;
-    color: white;
+    color: #85534e;
     padding-left: 5px;
     font-size: 1.5em;
 }
 
 h3,
-section section h1 {
+section section h1,
+.h3 {
     background-color: initial;
     border: initial;
     border-bottom: 1px dashed #85534e;
@@ -50,7 +51,8 @@ section section h1 {
 }
 
 h4,
-section section section h1 {
+section section section h1,
+.h4 {
     background-color: initial;
     border: initial;
     color: #85534e;
@@ -58,7 +60,8 @@ section section section h1 {
 }
 
 h5,
-section section section section h1 {
+section section section section h1,
+.h5 {
     background-color: initial;
     border: initial;
     color: #85534e;

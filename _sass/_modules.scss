@@ -4,8 +4,8 @@
 // 見出し
 ////////////////////////////////////////////
 
-.l-content { 
-    
+.heading-inline-tagline {
+    font-size: 80%;
 }
 
 ////////////////////////////////////////////
@@ -436,10 +436,12 @@
 // 新着情報用スタイル
 ////////////////////////////////////////////
 .post {
-
+    @extend .l-content-body-main;
 }
 .post-title {
-    
+    background: none;
+    color: #85534e;
+    border: none;
 }
 
 .post-meta {
@@ -450,6 +452,7 @@
     padding: 10px;
     margin-bottom: 30px;
 }
+
 .post-nav {
     position: relative;
     border-top: 1px dashed #85534e;
@@ -473,10 +476,264 @@
     }
 }
 
+.post-sidebar {
+    @extend .l-content-body-sidebar;
+}
+
+////////////////////////////////////////////
+// 記事一覧
+////////////////////////////////////////////
+
+.layout-top {
+    .post-list {
+        display: block;
+        list-style: none;
+        margin: 0 0;
+        padding: 0;
+        li {
+            display: block;
+            margin: 0;
+            padding: 0;
+            margin: 10px 0;
+            width: 100%;
+            display: block;
+            text-overflow: ellipsis;
+            overflow: hidden;
+            white-space: nowrap;
+        }
+        .post-meta {
+            font-weight: bold;
+        }
+        .post-link {
+
+        }
+    }
+}
+.post-sidebar {
+    .post-list {
+        display: block;
+        list-style: none;
+        margin: 0 0;
+        padding: 0;
+        li {
+            display: block;
+            margin: 0;
+            padding: 0;
+        margin: 10px 0;
+        }
+        .post-meta {
+            display: block;
+            font-weight: bold;
+            text-align: left;
+        }
+        .post-link {
+            display: block;
+        }
+    }
+}
+
+////////////////////////////////////////////
+// キャラクター紹介用スタイル
+////////////////////////////////////////////
+.character {
+    width: 100%;
+    
+    h3{
+        border: none;
+        border-left: 10px solid #bd6d65;
+        padding-left: 8px;
+    }
+        
+    .character-name {
+        display: inline-block;
+        background: none;
+        color: #85534e;
+        border: none;
+        font-size: 2em;
+        margin: 0;
+        padding: 0;
+        margin-right: 10px;
+    }
+
+    .character-englishName {
+        display: inline;
+        font-size: 1.5em;
+        color: #888;
+        margin: 0;
+        padding: 0;
+    }
+}
+
+.character-voiceActor {
+    font-size: 1.2em;
+    color: #666;
+    margin: 0;
+    padding: 0;
+}
+
+.character-image-undefined{
+    font-size: 20px;
+    text-align:  center;
+    color: #DDDDDD;
+    >i {
+        font-size: 200px;
+    }
+    >span{
+        display: block;
+        margin-top: 10px;
+    }
+}
+
+.character-profile-table {
+    border-collapse: collapse;
+    border-radius: 5px;
+    width: 100%;
+    table-layout: fixed;
+    border-top: 4px solid #bd6d65;
+    border-bottom: 4px solid #bd6d65;
+    font-size: 1.2em;
+
+    >tbody>tr {
+        background-color: #FFF8F8;
+        
+    }
+    >tbody>tr:nth-child(2n + 1) {
+        background-color: #FFFFFF;
+    }
+    
+    >tbody>tr>th,
+    >tbody>tr>td {
+
+        padding: 10px 5px;
+        border-bottom: 2px solid #bd6d65;
+    }
+    >tbody>tr>th {
+        font-weight: normal;
+        text-align: left;
+        width: 150px;
+    }
+    
+    >tbody>tr>td {
+        text-align: left;
+        width: auto;
+    }
+    
+
+    ul {
+        margin: 0 0;
+        padding: 0;
+        list-style: none;
+        >li {
+            margin: 0;
+            padding: 0;
+        }
+    }
+
+}
+.character-slogan {
+    color: #85534e;
+    font-size: 1.8em;
+    font-weight: bold;
+    margin-bottom: 1.0em;
+}
+
+.character-slogan::before{
+    content: "――";
+    display: inline;
+}
+
+.character-content {
+    margin-bottom: 50px;
+}
+
+.character-nav {
+    margin-top: 50px; 
+}
+
+.character-list {
+    display: block;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    list-style: none;
+    * {
+        box-sizing: border-box;
+    }
+}
+
+.character-list::after {
+    display: table;
+    content: "";
+    clear:both;
+}
+
+.character-list-item {
+    display: block;
+    float: left;
+    margin: 0;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    padding: 0;
+    border: 1px solid #DDDDDD;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+
+    width: calc(100% / 4 - 5px) ;
+    @include mobile-media-query {
+        width: 100%;
+    }
+    a {
+        display: block;
+        position: relative;
+        width: 100%;
+        min-height: 90px;
+        padding: 5px 0 0 90px;
+        text-decoration: none;
+    }
+    a:hover::before{
+        display: block;
+        content: "";
+
+        position: absolute;
+        left: 0;
+        top: 0;
+
+        width: 100%;
+        height:100%;
+
+        background-color: white;
+        opacity: 0.2;
+        z-index: 100;
+    }
+    .character-thumbnail {
+        position: absolute;
+        left: 5px;
+        top:  5px;
+        width: 80px;
+        min-height: 80px;
+        z-index: 0;
+    }
+    .character-name {
+        margin: 0;
+        padding: 0;
+        color: #85534e;
+        font-size: 1.2em;
+        font-weight: bold;
+
+    }
+    .character-englishName {
+        margin: 0;
+        padding: 0;
+        color: #666;
+    }
+}
+
 ////////////////////////////////////////////
 // 汎用スタイル
 ////////////////////////////////////////////
 
+.textblock {
+    padding: 10px 10px;
+}
 
 /* 汎用スタイル */
 .hideText{

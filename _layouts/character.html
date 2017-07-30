@@ -1,0 +1,117 @@
+---
+layout: page
+---
+
+<article class="character">
+
+    <header class="character-header">
+        <h2 class="character-name">{{ page.title }}</h2>
+        <div class="character-englishName">{{ page.englishName }}</div>
+        <div class="character-voiceActor">
+            CV: {{ page.voiceActor }}
+        </div>
+    </header>
+    <div class="row">
+        <div class="col-6">
+            {% if page.mainImage %}
+            <img src="{{ page.mainImage | relative_url }}" alt="キャラクター画像" class="caracter-image" />
+            {% else %}
+            <div class="character-image-undefined">
+                <i class="fa fa-picture-o"></i>
+                <span>Now Printing</span>
+            </div>
+            {% endif %}
+        </div>
+        <div class="col-6">
+            <div class="character-content">
+                {% if page.slogan %}
+                <div class="character-slogan">{{ page.slogan }}</div>
+                {% endif %}
+                {{ content }}
+            </div>
+            <section class="character-profile">
+                <h3>Profile</h3>
+                <table class="character-profile-table">
+                    <tbody>
+                        <tr>
+                            <th>氏名</th>
+                            <td>{{ page.title }} ({{ page.englishName }})</td>
+                        </tr>
+                        <tr>
+                            <th>生年月日</th>
+                            <td>
+                                {{ page.birthday | date: "%Y/%m/%d" }}
+                                {% if page.birthday %}
+                                (<span id="age"></span>)
+                                {% endif %}
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>所属・肩書</th>
+                            <td>   
+                                <ul>
+                                {% for j in page.jobTitles %}
+                                    <li>{{ j.organization }} {{ j.division }} {{ j.jobTitle }}</li>
+                                {% endfor %}
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>資格・免許等</th>
+                            <td>
+                                <ul>
+                                {% for x in page.qualifications %}
+                                    <li>{{ x }}</li>
+                                {% endfor %}
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>最終学歴</th>
+                            <td>{{ page.education }}</td>
+                        </tr>
+                        <tr>
+                            <th>好きな食べ物</th>
+                            <td>
+                                <ul>
+                                {% for x in page.favoriteFoods %}
+                                    <li>{{ x }}</li>
+                                {% endfor %}
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>座右の銘</th>
+                            <td>{{ page.favoriteMotto }}</td>
+                        </tr>
+                        <tr>
+                            <th>将来の夢</th>
+                            <td>{{ page.dreamForTheFuture }}</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+        </div>
+    </div>
+</article>
+
+<nav class="character-nav">
+    <ul class="character-list">
+    {% assign charpages = site.pages | where: 'layout', 'character' | sort: 'sortOrder'  %}
+    {% for page in charpages %}
+        <li class="character-list-item">
+            <a href="{{ page.url | prepend: site.baseurl }}">
+                <img class="character-thumbnail" alt="{{ page.title }}" src="{{ page.thunbmail | relative_url }}" />
+                <p class="character-name">{{ page.title }}</p>
+                <p class="character-englishName">{{ page.englishName }}</p>
+            </a>
+        </li>
+    {% endfor %}
+    </ul>
+</nav>
+{% if page.birthday %}
+<script src="{{ site.base_url }}/js/calcAge.js"></script>
+<script>
+    document.getElementById("age").innerHTML = calcAge('{{ page.birthday | date: "%Y%m%d" }}');
+</script>
+{% endif %}
