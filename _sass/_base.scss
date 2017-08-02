@@ -57,6 +57,10 @@ section section section h1,
     border: initial;
     color: #85534e;
     font-size: 1.00em;
+
+    &::before{
+        content: "■ "
+    }
 }
 
 h5,
@@ -66,4 +70,15 @@ section section section section h1,
     border: initial;
     color: #85534e;
     font-size: 1.00em;
+}
+
+/**
+ * Quote
+ */
+
+blockquote {
+    border: 1px solid #666;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    background-color: #FAFAFA;
+    padding: 10px 20px;
 }
