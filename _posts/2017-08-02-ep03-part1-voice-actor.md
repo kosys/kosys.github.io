@@ -151,7 +151,7 @@ OPAP-JP File Server 提出場所（保管期限30日） [https://file.opap.jp/ws
 ><br />
 
 #### 送付先
-info-opap●opap.jp （●を@に置き換えて下さい）
+info-opap●opap.jp （"●"を"@"に置き換えて下さい）
 
 ※人手不足につき受付メールは返信しておりません。予めご了承ください。
 
