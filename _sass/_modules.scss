@@ -585,51 +585,9 @@
 }
 
 .character-profile-table {
-    border-collapse: collapse;
-    border-radius: 5px;
-    width: 100%;
-    table-layout: fixed;
-    border-top: 4px solid #bd6d65;
-    border-bottom: 4px solid #bd6d65;
-    font-size: 1.2em;
-
-    >tbody>tr {
-        background-color: #FFF8F8;
-        
-    }
-    >tbody>tr:nth-child(2n + 1) {
-        background-color: #FFFFFF;
-    }
-    
-    >tbody>tr>th,
-    >tbody>tr>td {
-
-        padding: 10px 5px;
-        border-bottom: 2px solid #bd6d65;
-    }
-    >tbody>tr>th {
-        font-weight: normal;
-        text-align: left;
-        width: 150px;
-    }
-    
-    >tbody>tr>td {
-        text-align: left;
-        width: auto;
-    }
-    
-
-    ul {
-        margin: 0 0;
-        padding: 0;
-        list-style: none;
-        >li {
-            margin: 0;
-            padding: 0;
-        }
-    }
-
+    @extend .table-common;
 }
+
 .character-slogan {
     color: #85534e;
     font-size: 1.8em;
@@ -726,18 +684,110 @@
         color: #666;
     }
 }
+////////////////////////////////////////////
+// 放送情報
+////////////////////////////////////////////
+
+.onair-table {
+    @extend .table-common;
+
+    td.onair-place {
+        text-align: left;
+    }
+    td.onair-date {
+        text-align: center;
+    }
+}
+
+////////////////////////////////////////////
+// 利用規約
+////////////////////////////////////////////
+
+.signature {
+    text-align: right;
+    margin: 30px 0;
+}
 
 ////////////////////////////////////////////
 // 汎用スタイル
 ////////////////////////////////////////////
 
+
+
 .textblock {
     padding: 10px 10px;
 }
 
-/* 汎用スタイル */
 .hideText{
     text-indent: -300%;
     white-space: nowrap;
     overflow: hidden;
+}
+
+/* 標準表スタイル */
+.table-common {
+    border-collapse: collapse;
+    border-radius: 5px;
+    width: 100%;
+    table-layout: fixed;
+    border-top: none;
+    border-bottom: 4px solid #bd6d65;
+    font-size: 1.2em;
+
+
+    th{
+        color: #bd6d65;
+    }
+
+    >thead>tr>th,
+    >thead>tr>td {
+
+        padding: 10px 5px;
+        border-bottom: 4px solid #bd6d65;
+    }
+    
+    >tbody>tr {
+        background-color: #FFF8F8;
+        
+    }
+    >tbody>tr:first-child>th,
+    >tbody>tr:first-child>td {
+        border-top: 4px solid #bd6d65;
+    }
+
+    >tbody>tr:nth-child(2n + 1) {
+        background-color: #FFFFFF;
+    }
+    
+    >tbody>tr>th,
+    >tbody>tr>td {
+
+        padding: 10px 5px;
+        border-bottom: 2px solid #bd6d65;
+    }
+    
+    >tbody>tr>th {
+        font-weight: normal;
+        text-align: left;
+        width: 150px;
+    }
+
+
+    
+    >tbody>tr>td {
+        text-align: left;
+        width: auto;
+    }
+    
+
+    ul {
+        margin: 0 0;
+        padding: 0;
+        list-style: none;
+        >li {
+            margin: 0;
+            padding: 0;
+        }
+    }
+
 }

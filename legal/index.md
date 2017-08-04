@@ -34,3 +34,9 @@ This website contains open source materials and open source code.
 当社ウェブサイト上に掲載される個々の商標、ロゴマーク、商号等に関する権利は、OPAP-JPまたは個々の権利の所有者に帰属します。
 
 All rights on the trademarks, trade names and logos in this site are owned by OPAP-JP or other respective right holders.
+
+
+## その他
+
+* [情報セキュリティ基本方針](./security.html)
+* [プライバシーポリシー](./privacy.html)

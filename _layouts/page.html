@@ -35,9 +35,11 @@ layout: default
         <div class="l-content-header">
             {% assign categoryInfo = site.data.categoryInfo[page.category] %}
             {% assign categoryIndexUrl = "/" | append: page.category | append: "/" | relative_url %}
-            <h1 class="l-content-title"><a href="{{ categoryIndexUrl }}" class="headingCategoryLink">{{ categoryInfo.displayName }}</a></h1>
+            <h1 class="l-content-title"><a href="{{ categoryIndexUrl }}" class="headingCategoryLink">{% if categoryInfo %}{{ categoryInfo.displayName }}{% else %}{{ page.title }}{% endif %}</a></h1>
             <div class="l-content-title-tagline">
+                {% if categoryInfo %}
                 <a href="{{ categoryIndexUrl }}" class="headingCategoryLink">{{ categoryInfo.displayNameKana }}</a>　<a href="{{ categoryIndexUrl }}" class="headingCategoryLink">{{ categoryInfo.displayNameEnglish }}</a>
+                {% endif %}
             </div>
             <nav class="l-content-nav">
                 {% if page.previous_url %}

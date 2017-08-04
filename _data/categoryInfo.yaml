@@ -47,4 +47,8 @@ legal:
     displayNameKana: 'りようきやく'
     displayNameEnglish: 'Legal Notices'
     hide: 1
-
+info:
+    displayName: 'ご案内'
+    displayNameKana: 'ごあんない'
+    displayNameEnglish: 'Information'
+    hide: 1
