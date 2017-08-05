@@ -620,9 +620,7 @@
 }
 
 .character-list::after {
-    display: table;
-    content: "";
-    clear:both;
+    @extend .clearfix;
 }
 
 .character-list-item {
@@ -700,6 +698,50 @@
 }
 
 ////////////////////////////////////////////
+// ストーリー
+////////////////////////////////////////////
+
+.episode {
+    position: relative;
+}
+.episode-body {
+    padding: 10px;
+}
+
+.episode-link {
+    a {
+        font-size: 1.5em;
+        text-decoration: none;
+    }
+
+    .episode-link-list {
+        display: block;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        >li {
+            display: block;
+            width: 50%;
+            margin: 0;
+            padding: 0;
+            float: left;
+            text-align: center;
+        }
+        &::after{
+            @extend .clearfix;
+        }
+    }
+
+    .niconico {
+        color: #666;
+    }
+    .youtube {
+        color: #c0392b;
+    }
+}
+
+
+////////////////////////////////////////////
 // 利用規約
 ////////////////////////////////////////////
 
@@ -712,7 +754,11 @@
 // 汎用スタイル
 ////////////////////////////////////////////
 
-
+.clearfix{
+    display: table;
+    content: "";
+    clear:both;
+}
 
 .textblock {
     padding: 10px 10px;
