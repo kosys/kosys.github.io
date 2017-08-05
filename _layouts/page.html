@@ -11,7 +11,20 @@ layout: default
     </header>
 
     <nav class="l-nav">
+        <input id="main-nav-toggle" type="checkbox" class="nav-toggle" />
+        <label for="main-nav-toggle" class="nav-title">
+            MENU
+        </label>
         <ul class="nav-list">
+            <li class="nav-item nav-item-top">
+                <a href='{{ "/" | relative_url }}' class="nav-link">
+                        <span class="nav-item-number">
+                            <span class="nav-item-lineNumber"></span><span class="nav-item-stationNumber"></span>
+                        </span>
+                        <span class="nav-item-title">入口</span>
+                        <span class="nav-item-tagline">ENTRANCE</span>
+                    </a>
+            </li>
         {% for c in site.data.categoryInfo %}
             {% assign category = c[0] %}
             {% assign categoryInfo = c[1] %}

@@ -151,6 +151,10 @@ body::before{
     padding: 0;
     margin: 0;
 
+    @include mobile-media-query {
+        height: 100px;
+    }
+
     >.logo-kosys {
         height: 42.5px;
     }
@@ -182,10 +186,49 @@ body::before{
 
     @include mobile-media-query {
         height: auto;
-        width: 100%;
-        margin: 0;
+        width: 90%;
+        margin: 0 auto;
         margin-top: 90px;
         padding: 0 20px;
+
+        border: solid 1px #DDD;
+        background-color: #FFFFFF;
+        box-shadow: 1px 1px 2px rgba(0,0,0,0.5)  ;
+
+    }
+
+
+    .nav-title {
+        display: none;
+        @include mobile-media-query {
+            position: relative;
+            display: block;
+            height: 40px;
+            width: 100%;
+            text-align: center;
+            color: #85534e;
+            font-size: 1.2em;
+
+            &::before {
+                content: "";
+                display: inline-block;
+                height: 40px;
+                vertical-align: middle;
+            }
+
+            &::after {
+                content: "▼";
+                display: block;
+                position: absolute;
+                right: 0;
+                top: 12.5px;
+                font-size: 10px;
+            }
+        }
+    }
+
+    .nav-toggle {
+        display: none;
     }
 
     .nav-list {
@@ -210,6 +253,21 @@ body::before{
             -webkit-writing-mode: initial;
             -ms-writing-mode: initial;
             writing-mode: initial;
+        }
+    }
+
+    @include mobile-media-query {
+        .nav-list {
+            display: none;
+        }
+        .nav-toggle:checked + .nav-list {
+            display: block;
+        }
+        .nav-toggle:checked ~ .nav-list {
+            display: block;
+        }
+        .nav-toggle:checked ~ .nav-title::after {
+            transform: rotate(90deg);
         }
     }
 
@@ -293,7 +351,6 @@ body::before{
         border-radius: 20px;
         box-sizing: border-box;
         background-color: #c0392b;
-        padding-top: 4px;
 
         color: white;
         text-align:center;
@@ -315,8 +372,16 @@ body::before{
         }
     }
     .nav-item-lineNumber {
+        display: block;
+        width: 100%;
+        font-size: 8px;
+        line-height: 7px;
+        padding-top: 1px;
     }
     .nav-item-stationNumber {
+        display: block;
+        width: 100%;
+        font-size: 10px;
     }
     .nav-item-active {
         background-color: #FFDDDD;

@@ -32,14 +32,20 @@ story:
 staff:
     lineNumber: A
     stationNumber: '06'  
-    displayName: 'スタッフ' 
-    displayNameKana: 'すたっふ'
+    displayName: '制作陣' 
+    displayNameKana: 'せいさくじん'
     displayNameEnglish: 'Staff'
-joinus:
+special:
     lineNumber: A
     stationNumber: '07'  
-    displayName: '参加者募集' 
-    displayNameKana: 'さんかしゃぼしゅう'
+    displayName: '特別'
+    displayNameKana: 'とくべつ'
+    displayNameEnglish: 'Special'
+joinus:
+    lineNumber: A
+    stationNumber: '08'  
+    displayName: '募集情報' 
+    displayNameKana: 'ぼしゅう'
     displayNameEnglish: 'Join Us'
     navMapClass: 'navMap-item-important'
 legal:
