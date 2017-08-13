@@ -1,10 +1,17 @@
 ---
 layout: post
-title: こうしす！ 第3話part1 出演声優公募について
+title: こうしす！ 第3話part1 出演声優公募について【募集終了】
 author: OPAP-JP
 date: 2017-08-02 21:50:00 +0900
 category: news
 ---
+
+<span style="color:red; font-weight: bold;">2017/08/13追記</span><br />
+本募集は締め切りました。<br />
+[こうしす！ 第3話part1 出演声優公募の選考結果]({{ site.baseurl }}/news/2017/08/13/ep03-part1-voice-actor-result.html)を公表しました。
+<br />
+<br />
+<hr />
 
 情報セキュリティ啓発コメディアニメ「こうしす！」第3話part1に登場するサブキャラクターの声優（キャスト）を募集します。詳細は以下をご覧下さい。
 
