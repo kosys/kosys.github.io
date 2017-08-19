@@ -50,38 +50,42 @@ layout: default
         </div>
     </section>
     <article class="l-content row">
-        <section class="col-6">
-            <h2>お知らせ</h2>
-            <p>
-                現在、このサイトは準備中です。<br />
-                代わりに以下のサイトをご覧ください。
-            </p>
-            <p>
-                作品をご覧になりたい方<br />
-                <a class="altSite" href="http://ch.nicovideo.jp/kosys"> →ニコニコチャンネル</a><br />
-                <a class="altSite" href="https://www.youtube.com/user/OPAPJP"> →YouTube</a>
-            </p>
-            <p>
-                制作元について<br />
-                <a class="altSite" href="https://opap.jp/">→OPAP-JP公式サイト</a>
-            </p>
-            
-            <h2>新着情報</h2>
-                    
-            <ul class="post-list">
-            {% for post in site.posts limit:3 %}
-                <li>
-                <span class="post-meta">{{ post.date | date: "%Y/%m/%d" }}</span>
-                <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-                </li>
-            {% endfor %}
-            </ul>
-
-        </section>
+        <div class="col-6">
+            <section>
+                <h2>お知らせ</h2>
+                <p>
+                    現在、こうしす！第3話part1を制作中です。乞うご期待。
+                </p>
+            </section>
+            <section>
+                <h2>新着情報</h2>
+                        
+                <ul class="post-list">
+                {% for post in site.posts limit:3 %}
+                    <li>
+                    <span class="post-meta">{{ post.date | date: "%Y/%m/%d" }}</span>
+                    <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+                    </li>
+                {% endfor %}
+                </ul>
+            </section>
+            <section>
+                <h2>ご案内</h2>
+                <p>
+                    これまでの作品をご覧になりたい方<br />
+                    <a class="altSite" href="http://ch.nicovideo.jp/kosys"><i class="fa fa-arrow-circle-right"></i>ニコニコチャンネル</a><br />
+                    <a class="altSite" href="https://www.youtube.com/user/OPAPJP"><i class="fa fa-arrow-circle-right"></i>YouTube</a>
+                </p>
+                <p>
+                    制作元についてご関心をお持ちの方<br />
+                    <a class="altSite" href="https://opap.jp/"><i class="fa fa-arrow-circle-right"></i>OPAP-JP公式サイト</a>
+                </p>
+            </section>
+        </div>
         <section class="col-6">
             <h2>TWITTER</h2>
             <a href="https://twitter.com/kosys_pr" class="twitter-follow-button" data-show-count="false">Follow @kosys_pr</a>
-            <a class="twitter-timeline" data-height="400" href="https://twitter.com/kosys_pr">Tweets by kosys_pr</a>
+            <a class="twitter-timeline" data-height="500" href="https://twitter.com/kosys_pr">Tweets by kosys_pr</a>
             <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
         </section>
         <section class="col-12">
