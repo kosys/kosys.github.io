@@ -1,6 +1,7 @@
 ---
 layout: page
 title: "こうしす！第3話Part1公開 特設ページ"
+mainImage: '/img/ep03_part1_000.jpg'
 category: special
 ---
 
