@@ -1,11 +1,16 @@
 ---
 layout: page
-title: "こうしす！第3話Part1公開 特設ページ"
+title: "こうしす！第3話Part1公開カウントダウン"
 mainImage: '/img/ep03_part1_000.jpg'
 category: special
 ---
 
-## こうしす！第3話Part1公開 特設ページ
+## こうしす！第3話Part1公開カウントダウン
+
+<div class="slogan">
+こうしす！第3話Part1「「セキュリティに完璧を求めるのは間違っているだろうか」<br />
+2017年10月31日（火）公開予定！
+</div>
 
 <div class="row" markdown="1">
  ![本編画像1]({{ "/img/ep03_part1_000.jpg" | relative_url }} "本編画像1"){: .col-6}
@@ -32,11 +37,11 @@ category: special
         <tbody>
             <tr>
                 <td><a href="http://ch.nicovideo.jp/kosys">ニコニコチャンネル</a></td>
-                <td>2017年10月27日　22時以降　配信開始予定</td>
+                <td><del>2017年10月27日</del>2017年10月31日　22時以降　配信開始予定</td>
             </tr>
             <tr>
                 <td><a href="https://youtube.com/c/OPAPJP">YouTube</a></td>
-                <td>2017年10月27日　22時以降　配信開始予定</td>
+                <td><del>2017年10月27日</del>2017年10月31日　22時以降　配信開始予定</td>
             </tr>
         </tbody>
     </table>
