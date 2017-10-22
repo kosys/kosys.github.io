@@ -7,10 +7,10 @@ category: special
 ## こうしす！第3話Part1公開 特設ページ
 
 <div class="row" markdown="1">
- ![本編画像1]({{ "/img/ep03_part1_000.png" | relative_url }} "本編画像1"){: .col-6}
- ![本編画像2]({{ "/img/ep03_part1_001.png" | relative_url }} "本編画像2"){: .col-6}
- ![本編画像3]({{ "/img/ep03_part1_002.png" | relative_url }} "本編画像3"){: .col-6}
- ![本編画像4]({{ "/img/ep03_part1_003.png" | relative_url }} "本編画像4"){: .col-6}
+ ![本編画像1]({{ "/img/ep03_part1_000.jpg" | relative_url }} "本編画像1"){: .col-6}
+ ![本編画像2]({{ "/img/ep03_part1_001.jpg" | relative_url }} "本編画像2"){: .col-6}
+ ![本編画像3]({{ "/img/ep03_part1_002.jpg" | relative_url }} "本編画像3"){: .col-6}
+ ![本編画像4]({{ "/img/ep03_part1_003.jpg" | relative_url }} "本編画像4"){: .col-6}
 </div>
 
 ### あらすじ
