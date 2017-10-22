@@ -1,8 +1,8 @@
 ---
 layout: character
 category: characters
-title: 葛城
-englishName: KATSURAGI
+title: 葛城 岩男
+englishName: KATSURAGI Iwao
 slogan: 
 birthday:
 jobTitles:

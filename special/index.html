@@ -3,6 +3,13 @@ layout: page
 category: special
 ---
 
-<h2>特別なお知らせ</h2>
-
-順次掲載します。
+<h2>ページ一覧</h2>
+<ul class="post-list">
+  {% for p in site.pages %}
+    {% if p.url != page.url and p.category == "special" %}
+    <li>
+      <a class="post-link" href="{{ p.url | prepend: site.baseurl }}">{{ p.title }}</a>
+    </li>
+    {% endif %}
+  {% endfor %}
+</ul>

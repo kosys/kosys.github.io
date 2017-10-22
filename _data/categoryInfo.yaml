@@ -38,8 +38,8 @@ staff:
 special:
     lineNumber: A
     stationNumber: '07'  
-    displayName: '特別'
-    displayNameKana: 'とくべつ'
+    displayName: '特設展示'
+    displayNameKana: 'とくせつてんじ'
     displayNameEnglish: 'Special'
 joinus:
     lineNumber: A

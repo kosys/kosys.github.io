@@ -14,7 +14,7 @@ education:
 favoriteFoods:
 favoriteMotto: 
 dreamForTheFuture: 
-voiceActor: 
+voiceActor: 中嶋有志
 mainImage: '/img/yoshimitsu_asagiri.png'
 thunbmail: '/img/yoshimitsu_asagiri_thumb.png'
 characterType: sub

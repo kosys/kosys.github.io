@@ -15,7 +15,7 @@ education:
 favoriteFoods:
 favoriteMotto: 
 dreamForTheFuture: 
-voiceActor: 
+voiceActor: 村尾祥平
 mainImage: '/img/shizuo_yobe.png'
 thunbmail: '/img/shizuo_yobe_thumb.png'
 characterType: sub

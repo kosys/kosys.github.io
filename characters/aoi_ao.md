@@ -14,7 +14,7 @@ education:
 favoriteFoods:
 favoriteMotto: 
 dreamForTheFuture: 
-voiceActor: 
+voiceActor: 仄上かのほ
 mainImage: '/img/aoi_ao.png'
 thunbmail: '/img/aoi_ao_thumb.png'
 characterType: sub
