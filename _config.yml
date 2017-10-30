@@ -9,6 +9,7 @@ twitter_username: kosys_pr
 github_username:  opap-jp
 repository: kosys/kosys.github.io
 timezone: Asia/Tokyo
+future: true
 
 # Build settings
 markdown: kramdown
