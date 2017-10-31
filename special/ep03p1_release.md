@@ -1,15 +1,15 @@
 ---
 layout: page
-title: "こうしす！第3話Part1公開カウントダウン"
+title: "こうしす！第3話Part1公開"
 mainImage: '/img/ep03_part1_000.jpg'
 category: special
 ---
 
-## こうしす！第3話Part1公開カウントダウン
+## こうしす！第3話Part1公開
 
 <div class="slogan">
-こうしす！第3話Part1「セキュリティに完璧を求めるのは間違っているだろうか」<br />
-2017年10月31日（火）公開予定！
+こうしす！第3話「セキュリティに完璧を求めるのは間違っているだろうか」（Part1/4）<br />
+2017年10月31日（火）ついに公開！
 </div>
 
 <div class="row" markdown="1">
@@ -27,7 +27,7 @@ category: special
 
 ### 動画
 <div>
-    <table class="table-common">
+    <table class="table-common episode-link">
         <thead>
             <tr>
                 <th>配信サイト</th>
@@ -37,11 +37,13 @@ category: special
         <tbody>
             <tr>
                 <td><a href="http://ch.nicovideo.jp/kosys">ニコニコチャンネル</a></td>
-                <td><del>2017年10月27日</del>2017年10月31日　22時以降　配信開始予定</td>
+                <td>
+                    <a href="http://www.nicovideo.jp/watch/1509369806" class="niconico"><i class="fa fa-play-circle"></i>再生</a>
+                </td>
             </tr>
             <tr>
                 <td><a href="https://youtube.com/c/OPAPJP">YouTube</a></td>
-                <td><del>2017年10月27日</del>2017年10月31日　22時以降　配信開始予定</td>
+                <td><a href="https://www.youtube.com/watch?v=Sim3-h5kw4s&list=PLkcZjOkOXmAYlLJ0VYQQgJWfulTBnMIE5" class="youtube"><i class="fa fa-youtube-play"></i> 再生</a></td>
             </tr>
         </tbody>
     </table>
