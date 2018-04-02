@@ -15,7 +15,7 @@ OPAP-JPでは、こうしす！活用促進の一環として、企業コラボ�
 * サンプル品の無償提供は不要です。（会計処理・税務処理の都合上、サンプル品は有償にて購入させて頂きます。）
 
 <h3>コラボ商品事例</h3>
-<a markdown="1" href='{{ "/special/soysauce.htm" | relative_url }}'>
+<a markdown="1" href='{{ "/special/soysauce.html" | relative_url }}'>
 セキュリティ向上しま醤油（こむらさき醸造有限会社様）
 ![醤油]({{ "/img/soysauce_all.jpg" | relative_url }} "TKG")
 </a>
