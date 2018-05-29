@@ -14,6 +14,7 @@ category: joinus
 
 ### 協賛企業・支援者募集のご案内
 
+* [協賛企業募集](supporter.html)
 * [ご支援のお願い（OPAP-JP WEBサイト)](https://opap.jp/wiki/%E3%81%94%E6%94%AF%E6%8F%B4%E3%81%AE%E3%81%8A%E9%A1%98%E3%81%84)
 
 
