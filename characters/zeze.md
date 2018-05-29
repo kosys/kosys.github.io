@@ -15,8 +15,8 @@ favoriteFoods:
 favoriteMotto: 
 dreamForTheFuture: 
 voiceActor: 空りんご
-mainImage: 
-thunbmail: '/img/unknown_thumb.png'
+mainImage: '/img/zeze.png'
+thunbmail: '/img/zeze_thumb.png'
 characterType: sub
 sortOrder: 35
 ---

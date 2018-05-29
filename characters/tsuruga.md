@@ -15,8 +15,8 @@ favoriteFoods:
 favoriteMotto: 
 dreamForTheFuture: 
 voiceActor: 長内　創
-mainImage: 
-thunbmail: '/img/unknown_thumb.png'
+mainImage: '/img/tsuruga.png'
+thunbmail: '/img/tsuruga_thumb.png'
 characterType: sub
 sortOrder: 35
 ---

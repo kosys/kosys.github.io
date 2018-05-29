@@ -96,6 +96,7 @@ layout: page
 </article>
 
 <nav class="character-nav">
+    <h2>他のキャラクター</h2>
     <ul class="character-list">
     {% assign charpages = site.pages | where: 'layout', 'character' | sort: 'sortOrder'  %}
     {% for page in charpages %}
