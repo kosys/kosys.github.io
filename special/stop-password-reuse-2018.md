@@ -44,30 +44,10 @@ category: special
 
 ## パスワード関連まとめ
 
-### 4コマ漫画
-
-<div class="row" markdown="1">
-<div class="col-6" markdown="1">
-* [えらい立派なパスワードどすなぁ](http://www.atmarkit.co.jp/ait/articles/1710/26/news010.html)
-* [えらい立派なパスワードどすなぁ、再び](http://www.atmarkit.co.jp/ait/articles/1710/27/news006.html)
-
-
-<a href="http://www.atmarkit.co.jp/ait/series/7144/" class="btn">その他の回はこちら</a>
-</div>
-<div class="col-6" markdown="1">
-![4コマ]({{ "/img/l_kosys04_01.png" | relative_url }} "4コマ")
-</div>
-</div>
-
 ### コラボ醤油
 
 
 <div class="row" markdown="1">
-<div class="col-6" markdown="1">
-<div style="text-align: center;" markdown="1">
-![醤油]({{ "/img/soysauce_all.jpg" | relative_url }} "TKG")
-</div>
-</div>
 <div class="col-6" markdown="1">
 * ＃1　[パスワードの使い回しは止めま醤油（タイプ1）](http://www.komurasaki-jozo.co.jp/?pid=129965616)
 * ＃2　[パスワードの使い回しは止めま醤油（タイプ2）](http://www.komurasaki-jozo.co.jp/?pid=129965624)
@@ -81,8 +61,28 @@ category: special
 * OPAP-JPでは無償でコラボ企画を承っております。ご興味をお持ちの方は[こちらのページ]({{ "joinus/collaboration.html" | relative_url}})をご覧ください。
 </div>
 
-<div style="text-align: right;">
 <a href="http://www.komurasaki-jozo.co.jp/?mode=cate&cbid=2408389&csid=0" class="btn"><i class="fa fa-shopping-cart"></i> ご購入はこちらから！</a>
+</div>
+<div class="col-6" markdown="1">
+<div style="text-align: center;" markdown="1">
+![醤油]({{ "/img/soysauce_all.jpg" | relative_url }} "TKG")
+</div>
+</div>
+</div>
+
+### 4コマ漫画
+
+<div class="row" markdown="1">
+<div class="col-6" markdown="1">
+![4コマ]({{ "/img/l_kosys04_01.png" | relative_url }} "4コマ")
+</div>
+<div class="col-6" markdown="1">
+* [えらい立派なパスワードどすなぁ](http://www.atmarkit.co.jp/ait/articles/1710/26/news010.html)
+* [えらい立派なパスワードどすなぁ、再び](http://www.atmarkit.co.jp/ait/articles/1710/27/news006.html)
+
+
+<div style="text-align: right;">
+<a href="http://www.atmarkit.co.jp/ait/series/7144/" class="btn">その他の回はこちら</a>
 </div>
 </div>
 </div>
@@ -91,9 +91,13 @@ category: special
 
 <div class="row" markdown="1">
 <div class="col-6" markdown="1">
-どうしても、パスワードを使い回すなら、これをしておこうという内容として「コアパスワード」を紹介しました。
+<a href="http://www.nicovideo.jp/watch/1438270234">コウシス! LITE #1 「強く推奨バンサクのサングラス　～パスワード使い回しの術～」(ver.1.0.0 正式版)</a>
 
-※今となっては若干情報が古いです
+どうしても、パスワードを使い回すなら、これをしておこうという内容として「コアパスワード」を紹介しました。ただし、今となっては若干情報が古いことにご留意ください。<br />
+※WEBサイト名から簡単に推測されるような付加パスワードを避けた方が良いと思います。
+
+
+<a href="{{ "/story" | relative_url }}" class="btn">その他の回はこちら</a>
 </div>
 <div class="col-6" markdown="1">
 <script type="application/javascript" src="https://embed.nicovideo.jp/watch/1438270234/script?w=640&h=360"></script><noscript><a href="http://www.nicovideo.jp/watch/1438270234">コウシス! LITE #1 「強く推奨バンサクのサングラス　～パスワード使い回しの術～」(ver.1.0.0 正式版)</a></noscript>
@@ -107,6 +111,6 @@ category: special
 2018/08/22よりクラウドファンディングを[実施予定](https://readyfor.jp/projects/kosys-ep03-part2-2)ですので、ぜひご協力をお願いします。
 
 予告編
-
-<script type="application/javascript" src="https://embed.nicovideo.jp/watch/1532787244/script?w=640&h=360"></script><noscript><a href="http://www.nicovideo.jp/watch/1532787244">【先行カット公開】こうしす！＃3.2 予告編 第2弾 </a></noscript>
-
+<div style="width: 100%; height: 0; padding-bottom: 56.25%; position: relative;">
+<iframe style="width: 100%; height: 100%; position: absolute;" src="https://www.youtube.com/embed/vYIq8O41SeY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+</div>
