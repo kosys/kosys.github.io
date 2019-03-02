@@ -5,6 +5,8 @@ category: joinus
 mainImage: '/img/introduction.jpg'
 ---
 <h2 class="post-title">アニメ「こうしす！」ご協賛企業を募集中です！</h2>
+※受付停止中
+
 
 アニメ「こうしす！」監督の井二かけるです。
 
