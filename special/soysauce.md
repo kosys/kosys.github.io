@@ -30,8 +30,6 @@ category: special
 ![醤油]({{ "/img/soysauce_all.jpg" | relative_url }} "TKG")
 </div>
 
-価格　各356円（税込）<br />
-送料　648円～ <br />
 種類　計5種類 
 
 * ＃1　パスワードの使い回しは止めま醤油（タイプ1）
