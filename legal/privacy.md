@@ -65,6 +65,14 @@ Open Process Animation Project Japan <br />
 
 当団体にご提供いただいた個人情報の開示、訂正、追加または削除等を希望される場合は、社会通念や慣行に照らし、合理的に実施な範囲内で対応させていただきます。
 
+### 外部サービスのプライバシーポリシー
+
+当団体ではWEBサイトの運営のため、以下の外部サービスを利用する場合があります。各社のプライバシーポリシーは以下からご覧いただけます。
+
+* Google フォーム
+    * [Googleのプライバシーポリシー](https://policies.google.com/privacy?hl=ja)　
+    * [Googleの利用規約](http://www.google.com/accounts/TOS)
+
 
 ### 個人情報に関するお問い合わせ窓口
 
