@@ -1,6 +1,6 @@
 ---
 layout: post
-title: こうしす！ 第3話part1 出演声優公募の選考結果について
+title: こうしす！ 第3話part2 出演声優公募の選考結果について
 author: OPAP-JP
 date: 2019-04-30 21:15:00 +0900
 category: news
