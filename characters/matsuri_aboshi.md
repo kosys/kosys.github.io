@@ -11,7 +11,7 @@ education: 中学３年生
 favoriteFoods:
 favoriteMotto: 
 dreamForTheFuture: 
-voiceActor: NAOKA
+voiceActor: りゅうが（第3話～）、 NAOKA（第2話まで）
 mainImage: '/img/matsuri_aboshi.png'
 thunbmail: '/img/matsuri_aboshi_thumb.png'
 characterType: sub

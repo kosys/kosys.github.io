@@ -14,7 +14,7 @@ education:
 favoriteFoods:
 favoriteMotto: 
 dreamForTheFuture: 
-voiceActor: 
+voiceActor: 東條あいり
 mainImage: '/img/mana_managura.png'
 thunbmail: '/img/mana_managura_thumb.png'
 characterType: sub

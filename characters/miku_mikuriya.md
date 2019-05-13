@@ -14,7 +14,7 @@ education:
 favoriteFoods:
 favoriteMotto: 
 dreamForTheFuture: 
-voiceActor: 
+voiceActor: 真希那稜
 mainImage: '/img/miku_mikuriya.png'
 thunbmail: '/img/miku_mikuriya_thumb.png'
 characterType: sub
