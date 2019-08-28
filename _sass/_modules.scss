@@ -1,6 +1,125 @@
 @charset "utf-8";
 
 ////////////////////////////////////////////
+// 汎用スタイル
+////////////////////////////////////////////
+
+.clearfix{
+    display: table;
+    content: "";
+    clear:both;
+}
+
+.textblock {
+    padding: 10px 10px;
+}
+
+.hideText{
+    text-indent: -1000%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+/* 補足情報 */
+.note {
+    font-size: 80%;
+    color: #888;
+}
+
+/* スローガン・キャッチコピー */
+.slogan {
+    color: #85534e;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 1.0em;
+}
+
+
+/* 標準表スタイル */
+.table-common {
+    border-collapse: collapse;
+    border-radius: 5px;
+    width: 100%;
+    table-layout: fixed;
+    border-top: none;
+    border-bottom: 4px solid #bd6d65;
+    font-size: 1.2em;
+
+
+    th{
+        color: #bd6d65;
+    }
+
+    >thead>tr>th,
+    >thead>tr>td {
+
+        padding: 10px 5px;
+        border-bottom: 4px solid #bd6d65;
+    }
+    
+    >tbody>tr {
+        background-color: #FFF8F8;
+        
+    }
+    >tbody>tr:first-child>th,
+    >tbody>tr:first-child>td {
+        border-top: 4px solid #bd6d65;
+    }
+
+    >tbody>tr:nth-child(2n + 1) {
+        background-color: #FFFFFF;
+    }
+    
+    >tbody>tr>th,
+    >tbody>tr>td {
+
+        padding: 10px 5px;
+        border-bottom: 2px solid #bd6d65;
+    }
+    
+    >tbody>tr>th {
+        font-weight: normal;
+        text-align: left;
+        width: 150px;
+    }
+
+
+    
+    >tbody>tr>td {
+        text-align: left;
+        width: auto;
+    }
+    
+
+    ul {
+        margin: 0 0;
+        padding: 0;
+        list-style: none;
+        >li {
+            margin: 0;
+            padding: 0;
+        }
+    }
+
+}
+
+/* スクロール */
+.marquee {
+    overflow: hidden;
+    >* {
+        display: inline-block;
+        padding-left: 100%;
+        white-space: nowrap;
+        animation: anime-marquee 20s linear infinite;
+    }
+}
+
+@keyframes anime-marquee {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-100%); }
+}
+
+////////////////////////////////////////////
 // 見出し
 ////////////////////////////////////////////
 
@@ -740,6 +859,40 @@
         text-align: center;
     }
 }
+////////////////////////////////////////////
+// 作品概要
+////////////////////////////////////////////
+
+.table-series {
+    @extend .table-common;
+
+    >tbody>tr>th,
+    >tbody>tr>td {
+        height: 5em;
+        text-align: center;
+        vertical-align: middle;
+    }
+    .col-item-name {
+        width: 30%;
+    }
+    .check-yes {
+        color: green;
+    }
+    .check-partial{
+        color: gold;
+    }
+    .check-no{
+        color: red;
+    }
+    .cell-work-list {
+        text-align: left;
+        font-size: 80%;
+
+        li {
+            list-style: circle;
+        }
+    }
+}
 
 ////////////////////////////////////////////
 // ストーリー
@@ -813,122 +966,3 @@
 }
 
 
-
-////////////////////////////////////////////
-// 汎用スタイル
-////////////////////////////////////////////
-
-.clearfix{
-    display: table;
-    content: "";
-    clear:both;
-}
-
-.textblock {
-    padding: 10px 10px;
-}
-
-.hideText{
-    text-indent: -1000%;
-    white-space: nowrap;
-    overflow: hidden;
-}
-
-/* 補足情報 */
-.note {
-    font-size: 80%;
-    color: #888;
-}
-
-/* スローガン・キャッチコピー */
-.slogan {
-    color: #85534e;
-    font-size: 1.2em;
-    font-weight: bold;
-    margin-bottom: 1.0em;
-}
-
-
-/* 標準表スタイル */
-.table-common {
-    border-collapse: collapse;
-    border-radius: 5px;
-    width: 100%;
-    table-layout: fixed;
-    border-top: none;
-    border-bottom: 4px solid #bd6d65;
-    font-size: 1.2em;
-
-
-    th{
-        color: #bd6d65;
-    }
-
-    >thead>tr>th,
-    >thead>tr>td {
-
-        padding: 10px 5px;
-        border-bottom: 4px solid #bd6d65;
-    }
-    
-    >tbody>tr {
-        background-color: #FFF8F8;
-        
-    }
-    >tbody>tr:first-child>th,
-    >tbody>tr:first-child>td {
-        border-top: 4px solid #bd6d65;
-    }
-
-    >tbody>tr:nth-child(2n + 1) {
-        background-color: #FFFFFF;
-    }
-    
-    >tbody>tr>th,
-    >tbody>tr>td {
-
-        padding: 10px 5px;
-        border-bottom: 2px solid #bd6d65;
-    }
-    
-    >tbody>tr>th {
-        font-weight: normal;
-        text-align: left;
-        width: 150px;
-    }
-
-
-    
-    >tbody>tr>td {
-        text-align: left;
-        width: auto;
-    }
-    
-
-    ul {
-        margin: 0 0;
-        padding: 0;
-        list-style: none;
-        >li {
-            margin: 0;
-            padding: 0;
-        }
-    }
-
-}
-
-/* スクロール */
-.marquee {
-    overflow: hidden;
-    >* {
-        display: inline-block;
-        padding-left: 100%;
-        white-space: nowrap;
-        animation: anime-marquee 20s linear infinite;
-    }
-}
-
-@keyframes anime-marquee {
-    0% { transform: translateX(0); }
-    100% { transform: translateX(-100%); }
-}
