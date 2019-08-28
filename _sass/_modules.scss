@@ -871,6 +871,7 @@
         height: 5em;
         text-align: center;
         vertical-align: middle;
+        padding: 0;
     }
     .col-item-name {
         width: 30%;
@@ -885,9 +886,12 @@
         color: red;
     }
     .cell-work-list {
-        text-align: left;
         font-size: 80%;
 
+        ul {
+            display: inline-block;
+            text-align: left;
+        }
         li {
             list-style: circle;
         }

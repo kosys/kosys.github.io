@@ -418,7 +418,10 @@ body::before{
     border-radius: 10px;
 
     @include mobile-media-query {
-        width: 90%;
+        width: 100%;
+        height: auto;
+        border-left: none;
+        border-right: none;
         height: auto;
         margin: 0 auto;
     }
@@ -436,9 +439,11 @@ body::before{
         border-radius: 30px;
 
         @include mobile-media-query {
-            width: 90%;
+            margin-top: 1em;
+            width: 100%;
             height: auto;
-            margin: 0 auto;
+            border-left: none;
+            border-right: none;
         }
     }
 
