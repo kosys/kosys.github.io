@@ -9,7 +9,7 @@ category: special
 
 <div class="slogan">
 こうしす！#3.2「セキュリティに完璧を求めるのは間違っているだろうか」（Part2/4）<br />
-2019年9月6日（金）ついに公開！
+2019年9月6日（金）21:00ついに公開！
 </div>
 
 <div class="row" markdown="1">
