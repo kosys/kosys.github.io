@@ -23,7 +23,7 @@ category: special
 
 ### あらすじ
 
-セキュリティトラブルが進行しているとも知らず、京姫鉄道の社内システムエンジニア祝園アカネは、定時退社を心待ちにしていた。社外からの一報により、システムトラブルの発生に気がつく。しかし、社内からは何の連絡もない。一方、輸送指令所ではさらに深刻なトラブルが発生しようとしていた――。
+京姫鉄道の社内システムエンジニア祝園アカネは、セキュリティトラブルが進行していると知るよしもなく、退勤時刻を心待ちにしていた。そのとき、社外からの一報により、システムトラブルが判明する。しかし、社内からは何の連絡もなく、現状把握が進まない。「ウィルスに感染したら懲戒処分」という方針によって情報共有が阻まれていたのである。一方、輸送指令所ではさらに深刻なトラブルが発生しようとしていた――。 
 
 <br />
 <br />
@@ -41,13 +41,13 @@ category: special
             <tr>
                 <td><a href="http://ch.nicovideo.jp/kosys">ニコニコチャンネル</a></td>
                 <td>
-                    <!--<a href="http://www.nicovideo.jp/watch/1509369806" class="niconico"><i class="fa fa-play-circle"></i>再生</a>-->
+                    <a href="https://www.nicovideo.jp/watch/1567619642" class="niconico"><i class="fa fa-play-circle"></i>再生</a>
                 </td>
             </tr>
             <tr>
                 <td><a href="https://youtube.com/c/OPAPJP">YouTube</a></td>
                 <td>
-                <!--<a href="https://www.youtube.com/watch?v=Sim3-h5kw4s&list=PLkcZjOkOXmAZ8GrIlEPiUljvo_5WiOQ2e" class="youtube"><i class="fa fa-youtube-play"></i> 再生</a>-->
+                <a href="https://www.youtube.com/watch?v=FzuYg6e4naE&list=PLkcZjOkOXmAZ8GrIlEPiUljvo_5WiOQ2e" class="youtube"><i class="fa fa-youtube-play"></i> 再生</a>
                 </td>
             </tr>
         </tbody>
