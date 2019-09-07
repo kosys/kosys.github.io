@@ -1,25 +1,19 @@
 ---
-layout: page
-title: "こうしす！第3話Part2公開"
-mainImage: '/img/ep03_part2_005.jpg'
-category: special
+layout: post
+title: 'こうしす！第3話Part2 公開しました'
+author: OPAP-JP
+date: 2019-09-06 21:00:00 +0900
+category: news
+tags: 
+  - release
 ---
 
-## こうしす！第3話Part2公開
+大変お待たせいたしました。
 
-<div class="slogan">
-こうしす！#3.2「セキュリティに完璧を求めるのは間違っているだろうか」（Part2/4）<br />
-2019年9月6日（金）21:00ついに公開！
-</div>
+本日、こうしす！#3.2「セキュリティに完璧を求めるのは間違っているだろうか」（Part2/4）を公開しました。
 
-<div class="row" markdown="1">
- ![本編画像1]({{ "/img/ep03_part2_001.jpg" | relative_url }} "本編画像1"){: .col-6}
- ![本編画像2]({{ "/img/ep03_part2_002.jpg" | relative_url }} "本編画像2"){: .col-6}
- ![本編画像3]({{ "/img/ep03_part2_003.jpg" | relative_url }} "本編画像3"){: .col-6}
- ![本編画像4]({{ "/img/ep03_part2_004.jpg" | relative_url }} "本編画像4"){: .col-6}
- ![本編画像5]({{ "/img/ep03_part2_005.jpg" | relative_url }} "本編画像4"){: .col-6}
- ![本編画像5]({{ "/img/ep03_part2_006.jpg" | relative_url }} "本編画像4"){: .col-6}
-</div>
+ぜひご覧ください！
+
 
 ### あらすじ
 
@@ -55,9 +49,11 @@ category: special
 </div>
 <br />
 
-### お知らせ
-
-* [@ITにて4コママンガを連載中！　ぜひご覧ください](http://www.atmarkit.co.jp/ait/series/7144/)
-* [支線シリーズの一つ「こうしす！EE（Enterprise Edition）」のクラウドファンディングを京姫鉄道合同会社が実施中です。キャラクターの3Dモデルの制作等を目指します。是非ご支援ください](https://www.kyoki-railway.co.jp/news/2019/08/31/crowdfunding/)
-
-
+<div class="row" markdown="1">
+ ![本編画像1]({{ "/img/ep03_part2_001.jpg" | relative_url }} "本編画像1"){: .col-6}
+ ![本編画像2]({{ "/img/ep03_part2_002.jpg" | relative_url }} "本編画像2"){: .col-6}
+ ![本編画像3]({{ "/img/ep03_part2_003.jpg" | relative_url }} "本編画像3"){: .col-6}
+ ![本編画像4]({{ "/img/ep03_part2_004.jpg" | relative_url }} "本編画像4"){: .col-6}
+ ![本編画像5]({{ "/img/ep03_part2_005.jpg" | relative_url }} "本編画像4"){: .col-6}
+ ![本編画像5]({{ "/img/ep03_part2_006.jpg" | relative_url }} "本編画像4"){: .col-6}
+</div>
