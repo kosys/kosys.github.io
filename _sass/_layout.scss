@@ -250,17 +250,13 @@ body::before{
 
         height: 130px;
         
-        -webkit-writing-mode: vertical-lr;
-        -ms-writing-mode: tb-lr;
         writing-mode: vertical-lr;
 
         @include mobile-media-query {
             position: static;
             height: auto;
             right: auto;
-            -webkit-writing-mode: initial;
-            -ms-writing-mode: initial;
-            writing-mode: initial;
+            writing-mode: horizontal-tb;
         }
     }
 
@@ -293,8 +289,6 @@ body::before{
         text-align: left;
 
 
-        -webkit-writing-mode: vertical-rl;
-        -ms-writing-mode: tb-rl;
         writing-mode: vertical-rl;
 
 
@@ -302,9 +296,7 @@ body::before{
             height: 40px;
             width: 100%;
             margin: 5px 0;
-            -webkit-writing-mode: initial;
-            -ms-writing-mode: initial;
-            writing-mode: initial;
+            writing-mode: horizontal-tb;
         }
     }
 
@@ -367,9 +359,7 @@ body::before{
         line-height: 1.0;
         font-size: 8px;
 
-        -webkit-writing-mode: initial;
-        -ms-writing-mode: initial;
-        writing-mode: initial;
+        writing-mode: horizontal-tb;
 
         overflow: hidden;
 
