@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '【こうしす！EE】10/29までクラウドファンディング実施中です'
+title: '【こうしす！EE】【終了】10/29までクラウドファンディング実施中です'
 author: OPAP-JP
 date: 2019-09-18 21:00:00 +0900
 category: news
