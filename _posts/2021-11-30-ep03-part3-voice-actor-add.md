@@ -49,7 +49,7 @@ category: news
 （こうしす！第3話Part3より）
 > 夢前「ログですか？　保存期間はバラバラです。一部は、もう消えてるかも」
 
-[コンテ](https://kosys.gitlab.io/kosys-ep03/docs/storyboard/S08/)  
+[コンテ](https://kosys.gitlab.io/kosys-ep03/docs/storyboard/S07/)  
 [キャラ設定](https://kosys.opap.jp/characters/sakura_yumesaki.html)  
 [第2話映像](https://youtu.be/b6-qVTRYePY?t=456)
 
@@ -61,6 +61,10 @@ category: news
 * [小説版](https://gitlab.com/kyoki-railway/kosys-ee/novel-akane/-/raw/master/texts/02-incident1.md) 
 
 
+### 重視するポイント
+
+* 声質や演技が似ていること
+* すぐ収録していただけること
 
 ### 応募条件
 
