@@ -14,7 +14,7 @@ education:
 favoriteFoods:
 favoriteMotto: 
 dreamForTheFuture: 
-voiceActor: 杜川 彦
+voiceActor: 冷水優果（第3話～）、杜川 彦（第2話まで）
 mainImage: '/img/sakura_yumesaki.png'
 thunbmail: '/img/sakura_yumesaki_thumb.png'
 characterType: sub

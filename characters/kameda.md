@@ -14,7 +14,7 @@ education:
 favoriteFoods:
 favoriteMotto: 
 dreamForTheFuture: 
-voiceActor: 
+voiceActor: べ～
 mainImage: '/img/kameda.png'
 thunbmail: '/img/kameda_thumb.png'
 characterType: sub

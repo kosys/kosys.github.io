@@ -1,10 +1,17 @@
 ---
 layout: post
-title: こうしす！ 第3話part3 出演声優（代役）追加公募について
+title: こうしす！ 第3話part3 出演声優（代役）追加公募について【募集終了】
 author: OPAP-JP
 date: 2021-11-30 00:00:00 +0900
 category: news
 ---
+
+<span style="color:red; font-weight: bold;">2021/12/04追記</span><br />
+本募集は締め切りました。<br />
+[こうしす！ 第3話part3 出演声優追加公募の選考結果]({{ site.baseurl }}/news/2021/12/04/ep03-part3-voice-actor-add-result.html)を公表しました。
+<br />
+<br />
+<hr />
 
 
 情報セキュリティ啓発コメディアニメ「こうしす！」第3話part3に登場するサブキャラクターの代役の声優を募集します。詳細は以下をご覧下さい。

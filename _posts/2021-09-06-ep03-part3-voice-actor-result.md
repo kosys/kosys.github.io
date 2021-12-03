@@ -15,8 +15,8 @@ category: news
 <tr><td>ガヤ</td><td>べ～ 様、たんげゲンタ 様、西寺みふゆ 様、犬上太一 様、武川楓 様、香月 様</td></tr>
 <tr><td>亀田</td><td>べ～ 様</td></tr>
 <tr><td>山口</td><td>たんげゲンタ 様</td></tr>
-<tr><td>輸送指令員A</td><td>髙咲　舞 様</td></tr>
-<tr><td>輸送指令員B</td><td>香月 様</td></tr>
+<tr><td>輸送指令員A（鴻巣 燕）</td><td>髙咲　舞 様</td></tr>
+<tr><td>輸送指令員B（香登）</td><td>香月 様</td></tr>
 <tr><td>力士</td><td>べ～ 様</td></tr>
 </tbody>
 </table>
