@@ -1,8 +1,8 @@
 ---
 layout: character
 category: characters
-title: 膳所はるか
-englishName: ZEZE Haruka
+title: 山口
+englishName: YAMAGUCHI
 slogan: 
 birthday: 
 jobTitles:
@@ -14,9 +14,9 @@ education:
 favoriteFoods:
 favoriteMotto: 
 dreamForTheFuture: 
-voiceActor: 空りんご
-mainImage: '/img/zeze.png'
-thunbmail: '/img/zeze_thumb.png'
+voiceActor: たんげゲンタ
+mainImage: 
+thunbmail: '/img/unknown_thumb.png'
 characterType: sub
-sortOrder: 35
+sortOrder: 36
 ---
