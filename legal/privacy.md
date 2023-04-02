@@ -38,10 +38,7 @@ Open Process Animation Project Japan <br />
     * サーバーから送信されたデータサイズ
     * エラー発生時のエラーメッセージ
     * その他、エラーや不具合の改善のために必要な情報
-* クッキー
-  * 本サイトでは情報の収集にクッキーを使用しています。以下のチェックボックスをオフにしていただくことで拒否できます。
 
-> <iframe frameborder="no" width="600px" height="200px" src="//admin.opap.jp/piwik/index.php?module=CoreAdminHome&action=optOut&language=ja"></iframe>
 
 
 ### 情報の利用
