@@ -915,6 +915,10 @@
         text-decoration: none;
     }
 
+    a:hover {
+        opacity: 0.5;
+    }
+
     .episode-link-list {
         display: block;
         list-style: none;
@@ -925,8 +929,9 @@
             width: 50%;
             margin: 0;
             padding: 0;
+            padding-left: 3em;
             float: left;
-            text-align: center;
+            text-align: left;
         }
         &::after{
             @extend .clearfix;
@@ -938,6 +943,9 @@
     }
     .youtube {
         color: #c0392b;
+    }
+    .danimestore {
+        color: #ea552a;
     }
 }
 
