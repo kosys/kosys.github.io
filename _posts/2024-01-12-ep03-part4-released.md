@@ -1,24 +1,18 @@
 ---
-layout: page
-title: "こうしす！第3話Part4公開"
-mainImage: '/img/ep03_part4_001.jpg'
-category: special
+layout: post
+title: 'こうしす！第3話Part4 公開しました'
+author: OPAP-JP
+date: 2024-01-12 19:00:00 +0900
+category: news
+tags: 
+  - release
 ---
 
-## こうしす！第3話Part4公開
+大変お待たせいたしました。
 
-<div class="slogan">
-こうしす！#3.4「セキュリティに完璧を求めるのは間違っているだろうか」（Part4/4）<br />
-こうしす！ EE 第6レ「広報部システム課」<br />
-2024年1月12日（金）19:00ついに公開！
-</div>
+本日、こうしす！#3.4「セキュリティに完璧を求めるのは間違っているだろうか」（Part4/4）を公開しました。
 
-<div class="row" markdown="1">
- ![本編画像1]({{ "/img/ep03_part4_001.jpg" | relative_url }} "本編画像1"){: .col-6}
- ![本編画像2]({{ "/img/ep03_part4_002.jpg" | relative_url }} "本編画像2"){: .col-6}
- ![本編画像3]({{ "/img/ep03_part4_003.jpg" | relative_url }} "本編画像3"){: .col-6}
- ![本編画像4]({{ "/img/ep03_part4_004.jpg" | relative_url }} "本編画像4"){: .col-6}
-</div>
+ぜひご覧ください！
 
 ### あらすじ
 
@@ -29,7 +23,9 @@ category: special
 <br />
 <br />
 
+
 ### 動画
+
 <div>
     <table class="table-common episode-link">
         <thead>
@@ -68,3 +64,9 @@ category: special
 </div>
 <br />
 
+<div class="row" markdown="1">
+ ![本編画像1]({{ "/img/ep03_part4_001.jpg" | relative_url }} "本編画像1"){: .col-6}
+ ![本編画像2]({{ "/img/ep03_part4_002.jpg" | relative_url }} "本編画像2"){: .col-6}
+ ![本編画像3]({{ "/img/ep03_part4_003.jpg" | relative_url }} "本編画像3"){: .col-6}
+ ![本編画像4]({{ "/img/ep03_part4_004.jpg" | relative_url }} "本編画像4"){: .col-6}
+</div>
