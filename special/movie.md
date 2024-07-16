@@ -21,9 +21,46 @@ category: special
  ![本編画像4]({{ "/img/ep03_part4_001.jpg" | relative_url }} "本編画像4"){: .col-6}
 </div>
 
+
+## 予告編
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/VxWBPa89Skg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
 ## あらすじ
 
 ここは兵庫県姫路市と京都府を繋ぐ中堅私鉄、京姫鉄道。その広報部システム課に勤める社内システムエンジニアの祝園アカネは日々セキュリティトラブルにてんてこ舞い。安泰人生のはずが、なぜこんなことに！？  情報セキュリティをテーマとしたお仕事系コメディWebアニメ「こうしす！」のエッセンスを約1時間に凝縮した総集編映画版。
+
+
+## 上映情報
+
+
+<table class="onair-table">
+    <thead>
+        <tr>
+            <th class="onair-place">上映館</th>
+            <th class="onair-date">上映スケジュール</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td class="onair-place"><a href="http://www.osucinema.com/">大須シネマ</a></td>
+            <td class="onair-date">
+                2024/08/05（月）～2024/08/11（日）
+            </td>
+        </tr>
+        <tr>
+            <td class="onair-place"><a href="https://ebisucinema.jp/">ヱビスシネマ。</a></td>
+            <td class="onair-date">
+                2024/09/13（金）～2024/09/26（日）<br />
+                ※丹波国際映画祭 特別招待上映作品として
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+
+
 
 
 ## 監督からのメッセージ
@@ -79,7 +116,7 @@ OSやアプリケ－ション、機器類のファームウェアの定期的な
 * 映画版音楽・編曲: 上原一之龍（合同会社エフドア）
 * 映画版製作: 京姫鉄道合同会社
 * 制作: OPAP-JP contributors
-* 原作: 「こうしす！」 OPAP-JP contributors (<https://opap.jp/contributors>)
+* 原作: 「こうしす！」 OPAP-JP contributors (<https://opap.jp/contributors>) CC-BY 4.0 改変
 
 
 ## 出演
@@ -91,26 +128,4 @@ OSやアプリケ－ション、機器類のファームウェアの定期的な
 * 少佐: 芋
 * 中舟生良文: 岡松　仗
 * 他、OPAP-JP contributors (<https://opap.jp/contributors>)
-
-
-
-## 上映情報
-
-
-<table class="onair-table">
-    <thead>
-        <tr>
-            <th class="onair-place">上映館</th>
-            <th class="onair-date">上映スケジュール</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td class="onair-place"><a href="http://www.osucinema.com/">大須シネマ</a></td>
-            <td class="onair-date">
-                2024/08/05（月）～2024/08/11（日）
-            </td>
-        </tr>
-    </tbody>
-</table>
 
