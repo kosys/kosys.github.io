@@ -44,13 +44,13 @@ category: special
     </thead>
     <tbody>
         <tr>
-            <td class="onair-place"><a href="http://www.osucinema.com/">大須シネマ</a></td>
+            <td class="onair-place">愛知県: <a href="http://www.osucinema.com/">大須シネマ</a></td>
             <td class="onair-date">
                 2024/08/05（月）～2024/08/11（日）
             </td>
         </tr>
         <tr>
-            <td class="onair-place"><a href="https://ebisucinema.jp/">ヱビスシネマ。</a></td>
+            <td class="onair-place">兵庫県: <a href="https://ebisucinema.jp/">ヱビスシネマ。</a></td>
             <td class="onair-date">
                 2024/09/13（金）～2024/09/26（日）<br />
                 ※丹波国際映画祭 特別招待上映作品として
