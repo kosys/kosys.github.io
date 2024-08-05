@@ -22,18 +22,35 @@ category: special
 </div>
 
 
+<section markdown="1">
+
 ## 予告編
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/VxWBPa89Skg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe style="max-width: 100%; width: 1280px; height: auto; aspect-ratio: 16/9;" src="https://www.youtube.com/embed/VxWBPa89Skg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
+</section>
+
+<section markdown="1">
 
 ## あらすじ
 
 ここは兵庫県姫路市と京都府を繋ぐ中堅私鉄、京姫鉄道。その広報部システム課に勤める社内システムエンジニアの祝園アカネは日々セキュリティトラブルにてんてこ舞い。安泰人生のはずが、なぜこんなことに！？  情報セキュリティをテーマとしたお仕事系コメディWebアニメ「こうしす！」のエッセンスを約1時間に凝縮した総集編映画版。
 
+</section>
+
+
+<section markdown="1">
 
 ## 上映情報
 
+※地域、上映日順
+
+
+<section markdown="1">
+
+### 東海地方
+
+#### 愛知県
 
 <table class="onair-table">
     <thead>
@@ -44,13 +61,39 @@ category: special
     </thead>
     <tbody>
         <tr>
-            <td class="onair-place">愛知県: <a href="http://www.osucinema.com/">大須シネマ</a></td>
+            <td class="onair-place"><a href="http://www.osucinema.com/">大須シネマ</a></td>
             <td class="onair-date">
                 2024/08/05（月）～2024/08/11（日）
             </td>
         </tr>
+    </tbody>
+</table>
+
+</section>
+
+<section markdown="1">
+
+### 近畿地方
+
+#### 兵庫県
+
+<table class="onair-table">
+    <thead>
         <tr>
-            <td class="onair-place">兵庫県: <a href="https://ebisucinema.jp/">ヱビスシネマ。</a></td>
+            <th class="onair-place">上映館</th>
+            <th class="onair-date">上映スケジュール</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td class="onair-place"><a href="https://www.sumoto-orion.com/">洲本オリオン</a></td>
+            <td class="onair-date">
+                2024/08/19（月）～2024/08/23（金）<br />
+                2024/08/25（日）
+            </td>
+        </tr>
+        <tr>
+            <td class="onair-place"><a href="https://ebisucinema.jp/">ヱビスシネマ。</a></td>
             <td class="onair-date">
                 2024/09/13（金）～2024/09/26（日）<br />
                 ※丹波国際映画祭 特別招待上映作品として
@@ -59,9 +102,25 @@ category: special
     </tbody>
 </table>
 
+</section>
 
 
+<section markdown="1">
 
+### 上映館募集中
+
+本作品を上映してくださる映画館様を募集しております。
+自主上映会も歓迎いたします。詳細は京姫鉄道合同会社までお問い合わせください。
+
+[京姫鉄道合同会社](https://www.kyoki-railway.co.jp/contact/)
+
+
+</section>
+
+</section>
+
+
+<section markdown="1">
 
 ## 監督からのメッセージ
 
@@ -84,6 +143,10 @@ OSやアプリケ－ション、機器類のファームウェアの定期的な
 監督　井二かける
 
 
+</section>
+
+
+<section markdown="1">
 
 ## 作品情報
 
@@ -93,11 +156,20 @@ OSやアプリケ－ション、機器類のファームウェアの定期的な
 * 配給: [京姫鉄道合同会社](https://www.kyoki-railway.co.jp/)
 * 劇場公開日：2024年8月5日
 
+</section>
+
+
+<section markdown="1">
+
 ## 受賞情報
 
 * 第2回 京都デジタルアミューズメントアワード　映画・映像・アニメーション部門賞 (2019年度)
     * 「こうしす！」を代表作品として、監督の井二かけるが受賞。
 
+</section>
+
+
+<section markdown="1">
 
 ## スタッフ
 
@@ -118,6 +190,9 @@ OSやアプリケ－ション、機器類のファームウェアの定期的な
 * 制作: OPAP-JP contributors
 * 原作: 「こうしす！」 OPAP-JP contributors (<https://opap.jp/contributors>) CC-BY 4.0 改変
 
+</section>
+
+<section markdown="1">
 
 ## 出演
 
@@ -129,3 +204,4 @@ OSやアプリケ－ション、機器類のファームウェアの定期的な
 * 中舟生良文: 岡松　仗
 * 他、OPAP-JP contributors (<https://opap.jp/contributors>)
 
+</section>
