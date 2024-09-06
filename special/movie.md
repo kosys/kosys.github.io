@@ -63,7 +63,7 @@ category: special
         <tr>
             <td class="onair-place"><a href="http://www.osucinema.com/">大須シネマ</a></td>
             <td class="onair-date">
-                2024/08/05（月）～2024/08/11（日）
+                上映終了
             </td>
         </tr>
     </tbody>
@@ -88,15 +88,28 @@ category: special
         <tr>
             <td class="onair-place"><a href="https://www.sumoto-orion.com/">洲本オリオン</a></td>
             <td class="onair-date">
-                2024/08/19（月）～2024/08/23（金）<br />
-                2024/08/25（日）
+                上映終了
             </td>
         </tr>
         <tr>
-            <td class="onair-place"><a href="https://ebisucinema.jp/">ヱビスシネマ。</a></td>
+            <td class="onair-place"><a href="https://ebisucinema.jp/">ヱビスシネマ。</a>（<a href="https://tifc.jp/wp/">丹波国際映画祭</a>）</td>
             <td class="onair-date">
-                2024/09/13（金）～2024/09/26（日）<br />
-                ※丹波国際映画祭 特別招待上映作品として
+                2024/09/24（火）～2024/09/29（日）<br />
+                ※日程は変更の可能性があります。最新情報は<a href="https://tifc.jp/wp/">映画祭公式サイト</a>をご覧ください。
+            </td>
+        </tr>
+        <tr>
+            <td>さぎそうホール（<a href="https://tifc.jp/wp/">丹波国際映画祭</a>）</td>
+            <td class="onair-date">
+                2024/10/05（土）～2024/10/06（日）<br />
+                ※日程は変更の可能性があります。最新情報は<a href="https://tifc.jp/wp/">映画祭公式サイト</a>をご覧ください。
+            </td>
+        </tr>
+        <tr>
+            <td>やまなみホール（<a href="https://tifc.jp/wp/">丹波国際映画祭</a>）</td>
+            <td class="onair-date">
+                2024/10/13（日）～2024/10/14（月）<br />
+                ※日程は変更の可能性があります。最新情報は<a href="https://tifc.jp/wp/">映画祭公式サイト</a>をご覧ください。
             </td>
         </tr>
     </tbody>
